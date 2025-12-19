@@ -1,0 +1,273 @@
+
+
+{
+  "code": "HD4187",
+  "name": "GLOBOS LOVE N.1398 1402 HD",
+  "price": 2.20,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4187.jpeg"
+},
+
+{
+  "code": "HD4188",
+  "name": "GLOBOS 12PUL 34PCS HD",
+  "price": 2.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4188.jpeg"
+},
+
+{
+  "code": "HD4182",
+  "name": "GLOBOS DECORATIVA HD",
+  "price": 1.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4182.jpeg"
+},
+
+{
+  "code": "HD4183",
+  "name": "GLOBOS DECORATIVA HD.",
+  "price": 1.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4183.jpeg"
+},
+
+{
+  "code": "HD4184",
+  "name": "GLOBOS DECORATIVAS HD……",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4184.jpeg"
+},
+
+{
+  "code": "HD185",
+  "name": "GLOBOS 1.2G 05/2021",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD185.jpeg"
+},
+
+{
+  "code": "HD2483",
+  "name": "GLOBOS BALLOONS X100 05/2021",
+  "price": 1.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD2483.jpeg"
+},
+
+{
+  "code": "HD2484",
+  "name": "GLOBOS METAL 1.8G 05/2021",
+  "price": 1.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD2484.jpeg"
+},
+
+{
+  "code": "HD196",
+  "name": "GORRO DE CUMPLEAÑOS",
+  "price": 0.25,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD196.jpeg"
+},
+
+{
+  "code": "HD4140",
+  "name": "COLGANTE DE CUMPLEAÑO HD",
+  "price": 0.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4140.jpeg"
+},
+
+{
+  "code": "HD2487",
+  "name": "COLGANTE DE CUMPLEAÑO HD",
+  "price": 0.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD2487.jpeg"
+},
+
+{
+  "code": "HD4143",
+  "name": "COLGANTE DE CUMPLEAÑO HD.",
+  "price": 0.70,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4143.jpeg"
+},
+
+{
+  "code": "HD4178",
+  "name": "VELAS DECORATIVA HD",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4178.jpeg"
+},
+
+{
+  "code": "HD4164",
+  "name": "VELA NUMERO HD",
+  "price": 0.20,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4164.jpeg"
+},
+
+{
+  "code": "HD4151",
+  "name": "VELA DECORATIVAS HD...",
+  "price": 0.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4151.jpeg"
+},
+{
+  "code": "HD4179",
+  "name": "VELA DECORATIVAS HD..",
+  "price": 0.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4179.jpeg"
+},
+
+{
+  "code": "HD4173",
+  "name": "VELA DECORATIVA HD/.....",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4173.jpeg"
+},
+
+{
+  "code": "HD4174",
+  "name": "VELA DECORATIVA HD/......",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4174.jpeg"
+},
+
+{
+  "code": "HD4163",
+  "name": "VELA DECORATIVA HD LETRA",
+  "price": 0.80,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4163.jpeg"
+},
+
+{
+  "code": "HD4153",
+  "name": "VELA DECORATIVA HD.",
+  "price": 0.40,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4153.jpeg"
+},
+
+{
+  "code": "HD4175",
+  "name": "VELA CUMPLEAÑOS HD NUMERO..",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4175.jpeg"
+},
+
+{
+  "code": "HD4176",
+  "name": "VELA CUMPLEAÑOS HD NUMERO...",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4176.jpeg"
+},
+
+{
+  "code": "HD2492",
+  "name": "VELA DECORATICA STAR 05/2021",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD2492.jpeg"
+},
+
+{
+  "code": "HD2091",
+  "name": "VELA X9 CORAZONES",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD2091.jpeg"
+},
+
+{
+  "code": "HD2090",
+  "name": "VELA PEQ X25 CHINA",
+  "price": 1.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD2090.jpeg"
+},
+
+{
+  "code": "HD3159",
+  "name": "VELA UNICORNIO 05/2021",
+  "price": 1.30,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3159.jpeg"
+},
+
+{
+  "code": "HD4150",
+  "name": "VELA LOVE HD",
+  "price": 0.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4150.jpeg"
+},
+
+{
+  "code": "HD4167",
+  "name": "VELA HD NUMERO corona",
+  "price": 0.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4167.jpeg"
+},
+
+{
+  "code": "HD4148",
+  "name": "VELA DECORATIVAS HD",
+  "price": 0.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4148.jpeg"
+},
+
+{
+  "code": "HD4159",
+  "name": "VELA DECORATIVA HD.....",
+  "price": 0.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4159.jpeg"
+},
+
+{
+  "code": "HD4170",
+  "name": "VELA DECORATIVA HD/....",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4170.jpeg"
+},
+
+{
+  "code": "HD4168",
+  "name": "VELA DECORATIVA HD/...",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4168.jpeg"
+},
+
+{
+  "code": "HD4152",
+  "name": "VELA DECORATIVA HD",
+  "price": 0.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4152.jpeg"
+},
+
+{
+  "code": "HD4161",
+  "name": "VELA DECORATIVA HB REY",
+  "price": 0.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4161.jpeg"
+},
+
+{
+  "code": "HD4171",
+  "name": "VELA CUMPLEAÑOS HD NUMERO",
+  "price": 0.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4171.jpeg"
+},
+
+{
+  "code": "HD4172",
+  "name": "VELA CUMPLEAÑOS HD NUMERO.",
+  "price": 0.20,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4172.jpeg"
+},
+
+{
+  "code": "HD3156",
+  "name": "VELA 05/2021 17DC-4M23",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3156.jpeg"
+},
+
+{
+  "code": "HD3864",
+  "name": "SERPENTINA HD",
+  "price": 0.40,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3864.jpeg"
+},
+
+{
+  "code": "HD2482",
+  "name": "FIESTA SOCIAL KIT DE CUMPLEAÑOS",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD2482.jpeg"
+}

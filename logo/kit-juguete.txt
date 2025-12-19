@@ -1,0 +1,306 @@
+
+{
+  "code": "RFD356326",
+  "name": "INERTIA OWL CAR",
+  "price": 9.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/RFD356326.jpeg"
+},
+
+{
+  "code": "RFD415595",
+  "name": "ANKYLOSAURUS VARIOS JUGUETES",
+  "price": 2.20,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/RFD415595.jpeg"
+},
+
+{
+  "code": "RFD393310",
+  "name": "BABY GAME HANDLE 6 PCS",
+  "price": 3.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/RFD393310.jpeg"
+},
+
+{
+  "code": "RFD429860",
+  "name": "BAG ANIMAL JUGUETES",
+  "price": 3.60,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/RFD429860.jpeg"
+},
+
+{
+  "code": "RFD338566",
+  "name": "VINYL ICE CREAM",
+  "price": 1.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/RFD338566.jpeg"
+},
+
+{
+  "code": "RFD398301",
+  "name": "WITH LIGHT MUSIC 2,4G",
+  "price": 6.90,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/RFD398301.jpeg"
+},
+
+{
+  "code": "RFD431796",
+  "name": "UPGRADED MAGNETIC 36 PCS JUGUETE",
+  "price": 9.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/RFD431796.jpeg"
+},
+
+{
+  "code": "RFD285531",
+  "name": "TECLA DE MUSICA",
+  "price": 1.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/RFD285531.jpeg"
+},
+
+{
+  "code": "RFD430714",
+  "name": "SUCKER DINOSAUR TABLE",
+  "price": 4.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/RFD430714.jpeg"
+},
+
+{
+  "code": "RFD432514",
+  "name": "SPRAY FROG ELECTRIC JUGUETES",
+  "price": 3.20,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/RFD432514.jpeg"
+},
+
+{
+  "code": "RFD314967",
+  "name": "SNAIL TOY",
+  "price": 3.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/RFD314967.jpeg"
+},
+
+{
+  "code": "RFD430713",
+  "name": "SOFT BALL MANHATTAN",
+  "price": 3.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/RFD430713.jpeg"
+},
+
+{
+  "code": "RFD388033",
+  "name": "RATTLES 13 PCS JUGUETES",
+  "price": 8.40,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/RFD388033.jpeg"
+},
+
+{
+  "code": "RFD415247",
+  "name": "RATTLES 4SET JUGUETES",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/RFD415247.jpeg"
+},
+
+{
+  "code": "RFD424214",
+  "name": "Q EGG BALL MUSIC REMOTO",
+  "price": 5.80,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/RFD424214.jpeg"
+},
+
+{
+  "code": "RFD323656",
+  "name": "PLACATE BULL PINK",
+  "price": 1.40,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/RFD323656.jpeg"
+},
+
+{
+  "code": "RFD323641",
+  "name": "PINK BULL BIBI PLACATE",
+  "price": 1.30,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/RFD323641.jpeg"
+},
+
+{
+  "code": "RFD432603",
+  "name": "PINGUIN VARIOS JUGUETES",
+  "price": 5.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/RFD432603.jpeg"
+},
+
+{
+  "code": "RFD339990",
+  "name": "PHONE TOUCH JUGUETES",
+  "price": 3.60,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/RFD339990.jpeg"
+},
+
+{
+  "code": "RFD432511",
+  "name": "PENGUIN ELECTRIC JUGUETES",
+  "price": 2.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/RFD432511.jpeg"
+},
+
+{
+  "code": "RFD435796",
+  "name": "SANDBAG DOLE WORLD",
+  "price": 7.90,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/RFD435796.jpeg"
+},
+
+{
+  "code": "RFD406066",
+  "name": "CAN BE BOILED JUGUETES",
+  "price": 3.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/RFD406066.jpeg"
+},
+
+{
+  "code": "RFD418236",
+  "name": "CARTOON CHILDREN JUGUETES",
+  "price": 9.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/RFD418236.jpeg"
+},
+
+{
+  "code": "RFD295365",
+  "name": "BABY SET MUSIC PHONE JUGUETE",
+  "price": 5.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/RFD295365.jpeg"
+},
+
+{
+  "code": "RFD424679",
+  "name": "CAT HANDBAG JUGUETES",
+  "price": 9.10,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/RFD424679.jpeg"
+},
+
+{
+  "code": "RFD397384",
+  "name": "CHICKEN ELECTRIC JUGUETES",
+  "price": 4.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/RFD397384.jpeg"
+},
+
+{
+  "code": "RFD435926",
+  "name": "CIRCLE LUMINOUS R JUGUETES",
+  "price": 0.80,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/RFD435926.jpeg"
+},
+
+{
+  "code": "RFD356347",
+  "name": "COGNITIVE JENGA FUN",
+  "price": 6.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/RFD356347.jpeg"
+},
+
+{
+  "code": "RFD406065",
+  "name": "ECO FRIENDLY JUGUETES",
+  "price": 3.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/RFD406065.jpeg"
+},
+
+{
+  "code": "RFD377037",
+  "name": "ENAMEL RACING CAR 2,4G",
+  "price": 6.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/RFD377037.jpeg"
+},
+
+{
+  "code": "RFD424402",
+  "name": "HANGING PARTS JUGUETES",
+  "price": 10.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/RFD424402.jpeg"
+},
+
+{
+  "code": "RFD356325",
+  "name": "INERTIA CAR",
+  "price": 3.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/RFD356325.jpeg"
+},
+
+{
+  "code": "RFD385516",
+  "name": "MAGNETIC 62 PCS ELECTRIC",
+  "price": 15.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/RFD385516.jpeg"
+},
+
+{
+  "code": "RFD415596",
+  "name": "TRICERATOPS DINOSAUR JUGUETES",
+  "price": 2.20,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/RFD415596.jpeg"
+},
+
+{
+  "code": "RFD362245",
+  "name": "BUNNY MUSIC PHONE TELEFONO MUSICAL DE CONEJO",
+  "price": 5.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/RFD362245.jpeg"
+},
+
+{
+  "code": "RFD323616",
+  "name": "BULL PINK SOOTHE",
+  "price": 4.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/RFD323616.jpeg"
+},
+
+{
+  "code": "RFD323654",
+  "name": "PUPPY BIBI STICKS",
+  "price": 1.40,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/RFD323654.jpeg"
+},
+
+{
+  "code": "RFD437787",
+  "name": "GAFA PARTY GLASSES JUGUETE",
+  "price": 0.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/RFD437787.jpeg"
+},
+
+{
+  "code": "RFD357862",
+  "name": "FRUIT 3 PCS JUGUETES",
+  "price": 7.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/RFD357862.jpeg"
+},
+
+{
+  "code": "RFD425908",
+  "name": "DIY CASTLE BUILDING",
+  "price": 9.60,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/RFD425908.jpeg"
+},
+
+{
+  "code": "RFD285525",
+  "name": "PISTOLA DE AGUA CH",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/RFD285525.jpeg"
+},
+
+{"code": "RFD415596", "name": "TRICERATOPS DINOSAUR JUGUETES", "price": 2.20, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/RFD415596.jpeg"},
+{"code": "RFD251344", "name": "MAGNETISM CHINESE CHECKERS", "price": 0.50, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/RFD251344.jpeg"},
+{"code": "HD3415", "name": "CONSOLA DE JUEGO 5092 HD LCD", "price": 1.0, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3415.jpeg"},
+{"code": "HD3633", "name": "PLAY DOUGH HD PVC 7702", "price": 2.10, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3633.jpeg"},
+{"code": "RFD385516", "name": "MAGNETIC 62 PCS ELECTRIC", "price": 15.50, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD385516.jpeg"},
+{"code": "RFD357863", "name": "FRUIT 4 PCS JUGUETES", "price": 7.00, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/RFD357863.jpeg"},
+{"code": "RFD415594", "name": "TYRANNOSAURUS VARIOS JUGUETES", "price": 2.2, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/RFD415594.jpeg"},
+{"code": "HD1925", "name": "MINICALCULADORA JUGUETE", "price": 0.50, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD1925.jpeg"},
+
+
+
+
+
+
+{"code": "HD192", "name": "MASCARA DE CUMPLEAÑOS", "price": 0.50, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD192.jpeg"},
+{"code": "HD3855", "name": "ROPA DE CALABAZA HD L", "price": 1.90, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3855.jpeg"},
+{"code": "HD4322", "name": "KIT UTENCILIOS NIÑOS…..", "price": 2.10, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4322.jpeg"},
+{"code": "HD4324", "name": "KIT UTENCILIOS NIÑOS…….", "price": 3.00, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4324.jpeg"}

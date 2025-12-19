@@ -1,0 +1,238 @@
+
+
+{
+  "code": "HD3465",
+  "name": "CAMPANA YE-35 HD X3",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3465.jpeg"
+},
+
+{
+  "code": "HD3466",
+  "name": "CAMPANA YE-30 HD x4",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3466.jpeg"
+},
+
+{
+  "code": "HD4310",
+  "name": "XB3993 KITS CUBIERTOS",
+  "price": 2.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4310.jpeg"
+},
+
+{
+  "code": "HD4330",
+  "name": "XB0936 KITS UTENSILIOS",
+  "price": 3.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4330.jpeg"
+},
+
+{
+  "code": "HD4312",
+  "name": "XB1012 KITS CUBIERTOS",
+  "price": 1.70,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4312.jpeg"
+},
+
+{
+  "code": "HD4298",
+  "name": "UTENSILIOS XB8506 KITS",
+  "price": 1.30,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4298.jpeg"
+},
+
+{
+  "code": "HD4308",
+  "name": "XB399A KITS CUBIERTOS",
+  "price": 1.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4308.jpeg"
+},
+
+{
+  "code": "HD4301",
+  "name": "XB181117 KITS UTENSILIOS",
+  "price": 2.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4301.jpeg"
+},
+
+{
+  "code": "HD4309",
+  "name": "XB0522 KITS CUBIERTOS",
+  "price": 2.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4309.jpeg"
+},
+
+{
+  "code": "HD4306",
+  "name": "XB0775 KITS CUBIERTO",
+  "price": 1.10,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4306.jpeg"
+},
+
+{
+  "code": "HD4313",
+  "name": "XB20016 KITS CUBIERTOS",
+  "price": 1.60,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4313.jpeg"
+},
+
+{
+  "code": "HD3821",
+  "name": "VIANDA TERMICA 7059 HD INOXIDABLE",
+  "price": 6.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3821.jpeg"
+},
+
+{
+  "code": "HD3669",
+  "name": "VIANDA TERMICA HD 110V",
+  "price": 11.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3669.jpeg"
+},
+
+{
+  "code": "HD3469",
+  "name": "VIANDA TERMICA HD 244",
+  "price": 1.60,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3469.jpeg"
+},
+
+{
+  "code": "HD4001",
+  "name": "VASO HD",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4001.jpeg"
+},
+
+{
+  "code": "HD3594",
+  "name": "RECIPIENTE HD",
+  "price": 1.70,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3594.jpeg"
+},
+
+{
+  "code": "HD3597",
+  "name": "CUENCO HD UNICO MARIQUITA",
+  "price": 1.70,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3597.jpeg"
+},
+
+{
+  "code": "HD3591",
+  "name": "CUENCO PLASTICO HD INDIVIDUAL P",
+  "price": 0.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3591.jpeg"
+},
+
+{
+  "code": "HD3590",
+  "name": "CUENCO PLASTICO HD REDONDO DOBLE",
+  "price": 1.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3590.jpeg"
+},
+
+{
+  "code": "HD3886",
+  "name": "DESTAPADOR DELFIN 05/2021",
+  "price": 0.90,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3886.jpeg"
+},
+
+{
+  "code": "HD4042",
+  "name": "DESTAPADOR RESORTE DE BAÑO 3001 HD",
+  "price": 1.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4042.jpeg"
+},
+
+{
+  "code": "HD4012",
+  "name": "DISPENSADOR HD ALIMENTO",
+  "price": 2.80,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4012.jpeg"
+},
+
+{
+  "code": "HD4013",
+  "name": "DISPENSADOR HD ALIMENTO.",
+  "price": 3.30,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4013.jpeg"
+},
+
+{
+  "code": "HD4010",
+  "name": "ESTANTE HD ALMACENAMIENTO",
+  "price": 5.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4010.jpeg"
+},
+
+{
+  "code": "HD4004",
+  "name": "ESTANTE HD PARED",
+  "price": 4.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4004.jpeg"
+},
+
+{
+  "code": "HD4113",
+  "name": "HERRAMIENTA SACA CORCHO HD K-260 2022/02",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4113.jpeg"
+},
+
+{
+  "code": "HD3141",
+  "name": "POSA VASO CUADRADO 05/2021",
+  "price": 7.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3141.jpeg"
+},
+
+{
+  "code": "HD3140",
+  "name": "POSA VASO REDONDO 05/2021",
+  "price": 7.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3140.jpeg"
+},
+
+{
+  "code": "HD3269",
+  "name": "POSTE DOBLE PERCHA 05/2021",
+  "price": 7.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3269.jpeg"
+},
+
+{
+  "code": "HD3315",
+  "name": "JABON LIQUIDO 003 DISPENSADOR 05/2021",
+  "price": 5.60,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3315.jpeg"
+},
+
+{
+  "code": "HD3308",
+  "name": "GRIFO EXTRAIBLE 05/2021",
+  "price": 1.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3308.jpeg"
+},
+
+
+
+
+
+
+{"code": "HD4333", "name": "XB5999 KITS UTENSILIOS", "price": 4.0, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4333.jpeg"},
+{"code": "HD3589", "name": "PALA DE ARENA HD PARA GATOS", "price": 0.50, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3589.jpeg"},
+{"code": "HD4424", "name": "MOLDES PALETAS YH-765", "price": 1.40, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4424.jpeg"},
+{"code": "HD4112", "name": "MAZO PARA ABLANDAR ALIMENTOS_HERRAMIENTA HD K", "price": 2.50, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4112.jpeg"},
+{"code": "HD4302", "name": "KITS UTENSILIOS 9178A-304", "price": 2.00, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4302.jpeg"},
+{"code": "HD4125", "name": "K-228 SACA CORCHO HD 2022/02", "price": 2.00, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4125.jpeg"},
+{"code": "HD4314", "name": "KITS CUBIERTOS B-28", "price": 2.00, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4314.jpeg"},
+{"code": "HD4315", "name": "KITS CUBIERTOS B-40", "price": 1.40, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4315.jpeg"},
+{"code": "HD4316", "name": "KITS CUBIERTOS B-43", "price": 2.00, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4316.jpeg"},
+{"code": "HD4297", "name": "KITS UTENSILIOS 04621", "price": 2.50, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4297.jpeg"},
+{"code": "HD4303", "name": "KITS UTENSILIOS 2001M-2P", "price": 1.40, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4303.jpeg"},
+{"code": "HD02013", "name": "CUP TERMO500ML CHINA", "price": 7.40, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD02013.jpeg"},
+{"code": "HD4046", "name": "BOMBA DE AGUA HD 2L", "price": 2.10, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4046.jpeg"}
+

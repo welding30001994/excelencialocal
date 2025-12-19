@@ -1,0 +1,63 @@
+
+{
+  "code": "HD4500",
+  "name": "A10 PARLANTE CHINA",
+  "price": 6.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4500.jpeg"
+},
+
+{
+  "code": "HD2026",
+  "name": "AQ9 WIRELESS USB TF FM",
+  "price": 8.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD2026.jpeg"
+},
+
+{
+  "code": "HD2021",
+  "name": "A9 MINI MUSIC SPEAKER",
+  "price": 3.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD2021.jpeg"
+},
+
+{
+  "code": "HD2025",
+  "name": "TG528 PORTABLE SPEAKER",
+  "price": 14.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD2025.jpeg"
+},
+
+{
+  "code": "HD2027",
+  "name": "SLC130 WIRELESS SPEAKER",
+  "price": 12.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD2027.jpeg"
+},
+
+{
+  "code": "HD2028",
+  "name": "SLC110 WIRELESS SPEAKER",
+  "price": 14.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD2028.jpeg"
+},
+
+{
+  "code": "HD2039",
+  "name": "PARLANTE AM",
+  "price": 24.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD2039.jpeg"
+},
+
+{
+  "code": "HD4501",
+  "name": "J518 PORTABLE SPEAKER",
+  "price": 14.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4501.jpeg"
+},
+
+{
+  "code": "HD3322",
+  "name": "66BT AURICULARES BLUETOOTH 05/2021",
+  "price": 8.70,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3322.jpeg"
+}

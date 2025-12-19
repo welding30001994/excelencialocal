@@ -1,0 +1,106 @@
+
+{
+  "code": "HD4554",
+  "name": "PERFUME 50ML RS8216",
+  "price": 4.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4554.jpeg"
+},
+
+{
+  "code": "HD4555",
+  "name": "PERFUME 50ML RS8217",
+  "price": 4.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4555.jpeg"
+},
+
+{
+  "code": "HD4544",
+  "name": "PERFUME 50ML RS8230",
+  "price": 2.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4544.jpeg"
+},
+
+{
+  "code": "HD4556",
+  "name": "PERFUME 50ML RS8226",
+  "price": 2.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4556.jpeg"
+},
+
+{
+  "code": "HD4550",
+  "name": "PERFUME 50ML RS8225",
+  "price": 2.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4550.jpeg"
+},
+
+{
+  "code": "HD4553",
+  "name": "PERFUME 50ML RS8218",
+  "price": 4.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4553.jpeg"
+},
+
+{
+  "code": "HD4552",
+  "name": "PERFUME 50ML RS8215",
+  "price": 4.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4552.jpeg"
+},
+
+{
+  "code": "HD4575",
+  "name": "PERFUME 50ML RS8201 RS8202 BLANCO",
+  "price": 4.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4575.jpeg"
+},
+
+{
+  "code": "HD4577",
+  "name": "PERFUME 50ML RS8203 RS8204 ROSA",
+  "price": 4.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4577.jpeg"
+},
+
+{
+  "code": "HD4580",
+  "name": "PERFUME 30ML RS8203 RS8204 AZUL",
+  "price": 3.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4580.jpeg"
+},
+
+{
+  "code": "HD4572",
+  "name": "PERFUME 30 ML RS8201 RS8202 AMARILLO",
+  "price": 3.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4572.jpeg"
+},
+
+{
+  "code": "HD4605",
+  "name": "PERFUME 100ML B582-018",
+  "price": 3.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4605.jpeg"
+},
+
+{
+  "code": "HD4547",
+  "name": "PERFUME 50ML RS8233",
+  "price": 2.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4547.jpeg"
+},
+
+{
+  "code": "HD3374",
+  "name": "PERFUME B453 B454 HD4583",
+  "price": 3.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3374.jpeg"
+},
+
+{
+  "code": "HD4583",
+  "name": "PERFUME",
+  "price": 3.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4583.jpeg"
+}
+

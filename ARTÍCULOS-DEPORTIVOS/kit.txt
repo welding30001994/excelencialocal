@@ -1,0 +1,72 @@
+{
+  "code": "HD3662",
+  "name": "BALANCIN ABDOMINAL XY-YW HD SUCTION SIT UP",
+  "price": 4.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3662.jpeg"
+},
+
+{
+  "code": "HD3654-1",
+  "name": "SOPORTE PARA FLEXION YX-FW-L HD",
+  "price": 4.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3654-1.jpeg"
+},
+
+{
+  "code": "HD3658",
+  "name": "SOPORTE ABDOMINAL HD XY-YW-X",
+  "price": 5.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3658.jpeg"
+},
+
+{
+  "code": "HD3666-1",
+  "name": "RUEDA ABDOMINAL YX-JFX HD",
+  "price": 7.10,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3666-1.jpeg"
+},
+
+{
+  "code": "HD3664-1",
+  "name": "RUEDA ABDOMINAL",
+  "price": 4.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3664-1.jpeg"
+},
+
+{
+  "code": "HD3652",
+  "name": "LIGAS YX-ZLD HD",
+  "price": 3.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3652.jpeg"
+},
+
+{
+  "code": "HD3665",
+  "name": "BANDA ELASTICA YX-8Z HD",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3665.jpeg"
+},
+
+{
+  "code": "HD3661",
+  "name": "EXTENSOR ELASTICO HD YX-JD-X",
+  "price": 10.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3661.jpeg"
+},
+
+{
+  "code": "HD3656-1",
+  "name": "EXTENSOR DE PECHO YX-WKQ HD",
+  "price": 3.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3656-1.jpeg"
+},
+
+{
+  "code": "HD3671",
+  "name": "HULA HOOP HD",
+  "price": 10.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3671.jpeg"
+}
+
+
+

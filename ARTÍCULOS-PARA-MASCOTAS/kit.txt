@@ -1,0 +1,151 @@
+
+
+{
+  "code": "HD3370",
+  "name": "CCBB-2007 VARILLA MOLAR PARA MASCOTAS 05/2021",
+  "price": 1.20,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3370.jpeg"
+},
+
+{
+  "code": "HD3371",
+  "name": "CCBB-2004 VARILLA MOLAR PARA MASCOTAS 05/2021",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3371.jpeg"
+},
+
+{
+  "code": "HD3555",
+  "name": "PEINE PARA PERRO HD XG",
+  "price": 2.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3555.jpeg"
+},
+
+{
+  "code": "HD3559",
+  "name": "PEINE PARA PERRO HD XG.",
+  "price": 1.60,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3559.jpeg"
+},
+
+{
+  "code": "HD3558",
+  "name": "PEINE PARA PERRO HD MANGO TROMPETA",
+  "price": 1.10,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3558.jpeg"
+},
+
+{
+  "code": "HD3564",
+  "name": "PEINE PARA PERRO HD M..",
+  "price": 0.70,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3564.jpeg"
+},
+
+{
+  "code": "HD3561",
+  "name": "PEINE PARA PERRO HD M.",
+  "price": 1.10,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3561.jpeg"
+},
+
+{
+  "code": "HD3560",
+  "name": "PEINE PARA PERRO HD G.",
+  "price": 1.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3560.jpeg"
+},
+
+{
+  "code": "HD3556",
+  "name": "PEINE PARA PERRO HD G",
+  "price": 1.40,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3556.jpeg"
+},
+
+{
+  "code": "HD3569",
+  "name": "PEINE PARA PERRO HD DOBLE CARA",
+  "price": 1.10,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3569.jpeg"
+},
+
+{
+  "code": "HD3568",
+  "name": "PEINE PARA PERRO HD AGUJA /TROMPETA",
+  "price": 0.70,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3568.jpeg"
+},
+
+{
+  "code": "HD3570",
+  "name": "PEINE PARA PERRO HD 1 CARA",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3570.jpeg"
+},
+
+{
+  "code": "HD3571",
+  "name": "PEINE PARA PERRO HD",
+  "price": 1.10,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3571.jpeg"
+},
+
+{
+  "code": "HD3536",
+  "name": "COLLAR DE PERRO HD POLICIA",
+  "price": 2.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3536.jpeg"
+},
+
+{
+  "code": "HD3525-1",
+  "name": "CORREA DE MASCOTA HD....",
+  "price": 3.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3525-1.jpeg"
+},
+
+{
+  "code": "HD3522",
+  "name": "CORREA DE MASCOTA HD.",
+  "price": 5.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3522.jpeg"
+},
+
+{
+  "code": "HD3528-1",
+  "name": "CORREA DE MASCOTA HD/.",
+  "price": 5.70,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3528-1.jpeg"
+},
+
+{
+  "code": "HD3529-1",
+  "name": "CORREA DE MASCOTA HD/..",
+  "price": 4.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3529-1.jpeg"
+},
+
+{
+  "code": "HD3363",
+  "name": "CORREA PARA MASCOTAS 05/2021 1,5M",
+  "price": 1.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3363.jpeg"
+},
+
+{
+  "code": "HD3589",
+  "name": "PALA DE ARENA HD PARA GATOS",
+  "price": 0.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3589.jpeg"
+},
+
+{
+  "code": "HD3588",
+  "name": "PALA DE ARENA HD PARA GATO",
+  "price": 0.30,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3588.jpeg"
+}
+
+
+

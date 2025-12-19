@@ -1,0 +1,101 @@
+
+{
+  "code": "HD4607",
+  "name": "XMA STICKERS PARED",
+  "price": 0.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4607.jpeg"
+},
+
+{
+  "code": "HD4616",
+  "name": "STS STICKERS PARED",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4616.jpeg"
+},
+
+{
+  "code": "HD4446",
+  "name": "ST-HA3 STICKERS PARED",
+  "price": 0.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4446.jpeg"
+},
+
+{
+  "code": "HD4444",
+  "name": "ST-HA STICKERS PARED",
+  "price": 0.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4444.jpeg"
+},
+
+{
+  "code": "HD4606",
+  "name": "XMD2 STICKERS PARED",
+  "price": 0.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4606.jpeg"
+},
+
+{
+  "code": "HD4617",
+  "name": "DTD STICKERS PARED",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4617.jpeg"
+},
+
+{
+  "code": "HD4609",
+  "name": "FLE STICKERS PARED",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4609.jpeg"
+},
+
+{
+  "code": "HD4447",
+  "name": "FP STICKERS PARED",
+  "price": 0.80,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4447.jpeg"
+},
+
+{
+  "code": "HD214",
+  "name": "STICKERS PARED AA/XM",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD214.jpeg"
+},
+
+{
+  "code": "HD216",
+  "name": "STICKERS DE CORONAS STAY",
+  "price": 0.40,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD216.jpeg"
+},
+
+{
+  "code": "HD2114",
+  "name": "STICKERS",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD2114.jpeg"
+},
+
+{
+  "code": "HD3030",
+  "name": "PAPEL TAPIZ 05/2021 5*45",
+  "price": 1.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3030.jpeg"
+},
+
+{
+  "code": "HD3032",
+  "name": "ADHESIVO PARED 3 X 60",
+  "price": 1.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3032.jpeg"
+},
+
+{
+  "code": "HD3710",
+  "name": "LUZ EN VIVODEL TECHO HD",
+  "price": 14.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3710.jpeg"
+}
+
+
+

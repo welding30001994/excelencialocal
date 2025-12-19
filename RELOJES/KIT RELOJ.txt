@@ -1,0 +1,94 @@
+
+
+{
+  "code": "HD2364",
+  "name": "RELOJ",
+  "price": 2.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD2364.jpeg"
+},
+
+{
+  "code": "HD2351",
+  "name": "RELOJ",
+  "price": 2.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD2351.jpeg"
+},
+
+{
+  "code": "HD2365",
+  "name": "RELOJ",
+  "price": 2.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD2365.jpeg"
+},
+
+{
+  "code": "HD4451",
+  "name": "RELOJ 29*29*4CM 528",
+  "price": 2.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4451.jpeg"
+},
+
+{
+  "code": "HD4215",
+  "name": "RELOJ SQUID GAME HD.",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4215.jpeg"
+},
+
+{
+  "code": "HD832",
+  "name": "RELOJ XA/8017A CHINA",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD832.jpeg"
+},
+
+{
+  "code": "HD833",
+  "name": "RELOJ XA/8020A CHINA",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD833.jpeg"
+},
+
+{
+  "code": "HD3445",
+  "name": "RELOJ HD + PULSERA + CADENA",
+  "price": 8.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3445.jpeg"
+},
+
+{
+  "code": "HD2372",
+  "name": "PD565-J RELOJ DAMA DELICADO MODIYA",
+  "price": 2.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD2372.jpeg"
+},
+
+{
+  "code": "HD3168",
+  "name": "R113E RELOJ DIGITAL 05/2021",
+  "price": 4.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3168.jpeg"
+},
+
+{
+  "code": "HD3176",
+  "name": "NA823 RELOJ DIGITAL 05/2021.",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3176.jpeg"
+},
+
+{
+  "code": "HD3175",
+  "name": "NA811 RELOJ DIGITAL 05/2021",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3175.jpeg"
+},
+
+{
+  "code": "HD4449",
+  "name": "RELOJ 30*30*4CM 235H",
+  "price": 3.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4449.jpeg"
+}
+
+

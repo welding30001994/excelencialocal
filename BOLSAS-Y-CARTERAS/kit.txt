@@ -1,0 +1,160 @@
+{
+  "code": "HD3941",
+  "name": "BOLSADE REGALO 366 PVC HD S",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3941.jpeg"
+},
+
+{
+  "code": "HD3942",
+  "name": "BOLSADE REGALO 366 PVC HD M",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3942.jpeg"
+},
+
+{
+  "code": "HD3917",
+  "name": "BOLSADE REGALO 301 HD L",
+  "price": 0.90,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3917.jpeg"
+},
+
+{
+  "code": "HD3934",
+  "name": "BOLSA DE REGALO HD 356 S",
+  "price": 0.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3934.jpeg"
+},
+
+{
+  "code": "HD3878",
+  "name": "BOLSA DE REGALO 305 HD S",
+  "price": 0.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3878.jpeg"
+},
+
+{
+  "code": "HD3927",
+  "name": "BOLSA DE REGALO HD 333 L",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3927.jpeg"
+},
+
+{
+  "code": "HD3938",
+  "name": "BOLSADE REGALO 365 PVC HD",
+  "price": 0.60,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3938.jpeg"
+},
+
+{
+  "code": "HD3888",
+  "name": "BOLSA DE REGALO 287 HD M",
+  "price": 0.70,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3888.jpeg"
+},
+
+{
+  "code": "HD3886-1",
+  "name": "BOLSADE REGALO 282 HD",
+  "price": 0.70,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3886-1.jpeg"
+},
+
+{
+  "code": "HD184",
+  "name": "CARTERA 10068",
+  "price": 5.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD184.jpeg"
+},
+
+{
+  "code": "HD181",
+  "name": "CARTERA AG13578",
+  "price": 5.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD181.jpeg"
+},
+
+{
+  "code": "HD183",
+  "name": "CARTERA CHINA 19323",
+  "price": 5.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD183.jpeg"
+},
+
+{
+  "code": "HD409",
+  "name": "BILLETERA PARA MONEDA L67",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD409.jpeg"
+},
+
+{
+  "code": "HD4204",
+  "name": "POP IT CARTERA HD....",
+  "price": 3.60,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4204.jpeg"
+},
+
+{
+  "code": "HD4213",
+  "name": "POP IT CARTERA HD..",
+  "price": 3.60,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4213.jpeg"
+},
+
+{
+  "code": "HD4203",
+  "name": "POP IT CARTERA HD...",
+  "price": 3.60,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4203.jpeg"
+},
+
+{
+  "code": "HD4211",
+  "name": "POP IT CARTERA HD",
+  "price": 1.70,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4211.jpeg"
+},
+
+{
+  "code": "HD4216",
+  "name": "POP IT CARTERA HD MODELOS VARIOS",
+  "price": 2.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4216.jpeg"
+},
+
+{
+  "code": "HD4205",
+  "name": "POP IT CARTERA HD.....",
+  "price": 3.80,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4205.jpeg"
+},
+
+{
+  "code": "HD4542",
+  "name": "REF5 MONEDERO VARIOS",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4542.jpeg"
+},
+
+{
+  "code": "HD4541",
+  "name": "REF4 MONEDERO VARIOS",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4541.jpeg"
+},
+
+{
+  "code": "HD4540",
+  "name": "REF3 MONEDERO VARIOS.",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4540.jpeg"
+},
+
+{
+  "code": "HD4538",
+  "name": "REF1 MONEDERO VARIOS",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4538.jpeg"
+}

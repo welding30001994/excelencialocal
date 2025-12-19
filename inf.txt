@@ -1,0 +1,74 @@
+git add .
+
+
+git commit -m "Subiendo mi documento"
+
+
+git push
+
+
+
+C:\Users\COLOMBOFILIA>cd excelencia
+
+C:\Users\COLOMBOFILIA\excelencia>git add .
+
+C:\Users\COLOMBOFILIA\excelencia>git commit -m "Subiendo mi documento"
+[main 2becd54] Subiendo mi documento
+ 51 files changed, 42 insertions(+), 252 deletions(-)
+ create mode 100644 catalogo/685345547511.jpeg
+ create mode 100644 catalogo/7861038062353.jpeg
+ create mode 100644 catalogo/7861038062490.jpeg
+ create mode 100644 catalogo/HD02013.jpeg
+ create mode 100644 catalogo/HD1826.jpeg
+ create mode 100644 catalogo/HD2004.jpeg
+ create mode 100644 catalogo/HD2042.jpeg
+ create mode 100644 catalogo/HD2560.jpeg
+ create mode 100644 catalogo/HD2575.jpeg
+ create mode 100644 catalogo/HD3028.jpeg
+ create mode 100644 catalogo/HD3288.jpeg
+ create mode 100644 catalogo/HD3325.jpeg
+ create mode 100644 catalogo/HD3327.jpeg
+ create mode 100644 catalogo/HD3329.jpeg
+ create mode 100644 catalogo/HD3340.jpeg
+ create mode 100644 catalogo/HD3395.jpeg
+ create mode 100644 catalogo/HD3415.jpeg
+ create mode 100644 catalogo/HD3616.jpeg
+ create mode 100644 catalogo/HD3623.jpeg
+ create mode 100644 catalogo/HD3633.jpeg
+ create mode 100644 catalogo/HD3723.jpeg
+ create mode 100644 catalogo/HD3778.jpeg
+ create mode 100644 catalogo/HD3829.jpeg
+ create mode 100644 catalogo/HD3842.jpeg
+ create mode 100644 catalogo/HD3846.jpeg
+ create mode 100644 catalogo/HD3847.jpeg
+ create mode 100644 catalogo/HD3849.jpeg
+ create mode 100644 catalogo/HD3851.jpeg
+ create mode 100644 catalogo/HD3852.jpeg
+ create mode 100644 catalogo/HD3855.jpeg
+ create mode 100644 catalogo/HD385516.jpeg
+ create mode 100644 catalogo/HD3955.jpeg
+ create mode 100644 catalogo/HD3957.jpeg
+ create mode 100644 catalogo/HD4039.jpeg
+ create mode 100644 catalogo/HD4046.jpeg
+ create mode 100644 catalogo/HD4094.jpeg
+ create mode 100644 catalogo/HD4264.jpeg
+ create mode 100644 catalogo/HD4333.jpeg
+ create mode 100644 catalogo/HD4459.jpeg
+ create mode 100644 catalogo/HD4464.jpeg
+ create mode 100644 catalogo/HD4465.jpeg
+ create mode 100644 catalogo/HD789.jpeg
+ create mode 100644 catalogo/HD897.jpeg
+ create mode 100644 catalogo/RFD357863.jpeg
+ create mode 100644 catalogo/RFD415594.jpeg
+ create mode 100644 catalogo/RFD415596.jpeg
+
+C:\Users\COLOMBOFILIA\excelencia>git push
+Enumerating objects: 63, done.
+Counting objects: 100% (63/63), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (55/55), done.
+Writing objects: 100% (55/55), 21.91 MiB | 4.33 MiB/s, done.
+Total 55 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+To https://github.com/welding30001994/excelencia-oficial.git
+   e32cc5f..2becd54  main -> main

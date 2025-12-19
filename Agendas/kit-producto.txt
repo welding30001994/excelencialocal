@@ -1,0 +1,77 @@
+{
+  "code": "HD3230",
+  "name": "6118 AGENDAS GRANDE 05/2021",
+  "price": 2.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3230.jpeg"
+},
+{
+  "code": "HD3229",
+  "name": "81225-2 AGENDAS 05/2021",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3229.jpeg"
+},
+
+{
+  "code": "HD3233",
+  "name": "AGENDAS 05/2021 175-25-1",
+  "price": 2.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3233.jpeg"
+},
+{
+  "code": "HD3227",
+  "name": "AGENDAS 05/2021 11-25",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3227.jpeg"
+},
+{
+  "code": "HD4223",
+  "name": "AGENDA HD A5-140",
+  "price": 1.60,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4223.jpeg"
+},
+
+{
+  "code": "HD4220",
+  "name": "AGENDA HD 9925",
+  "price": 2.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4220.jpeg"
+},
+{
+  "code": "HD4224",
+  "name": "AGENDA HD 14918",
+  "price": 2.60,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4224.jpeg"
+},
+{
+  "code": "HD4226",
+  "name": "AGENDA HD 14948",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4226.jpeg"
+},
+{
+  "code": "HD4218",
+  "name": "AGENDA HD 25012",
+  "price": 2.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4218.jpeg"
+},
+{
+  "code": "HD4217",
+  "name": "AGENDA HD 25-55",
+  "price": 2.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4217.jpeg"
+},
+{
+  "code": "HD4219",
+  "name": "AGENDA HD 9918",
+  "price": 2.60,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4219.jpeg"
+},
+
+{
+  "code": "HD3232",
+  "name": "AGENDAS PEQ 05/2021 6148",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3232.jpeg"
+}
+
+

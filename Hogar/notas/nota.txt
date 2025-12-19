@@ -1,0 +1,1501 @@
+
+  {
+    "code": "6852345547511",
+    "name": "AM HIGH QUALITY MOSQUITO NET. MOSQUITERO",
+    "price": 10.0,
+    "image": "../catalogo/6852345547511.jpeg"
+  },
+  {
+    "code": "7861038062483",
+    "name": "ANTIBACTERIANTE",
+    "price": 2.1,
+    "image": "../catalogo/7861038062483.jpeg"
+  },
+  {
+    "code": "6202110243207",
+    "name": "KIT PARA BEBE ACCESORIO HOGAR AM",
+    "price": 1.6,
+    "image": "../catalogo/6202110243207.jpeg"
+  },
+  {
+    "code": "HD1192",
+    "name": "11 ARCOIRIS CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1192.jpeg"
+  },
+  {
+    "code": "HD1530",
+    "name": "11 BORDE DE COLOR CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1530.jpeg"
+  },
+  {
+    "code": "HD1484",
+    "name": "11 BROCHE UNICOLOR CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1484.jpeg"
+  },
+  {
+    "code": "HD1415",
+    "name": "11 ESCARCHADO CON BROCHE CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1415.jpeg"
+  },
+  {
+    "code": "HD1507",
+    "name": "11 FLOWERS CADENA CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1507.jpeg"
+  },
+  {
+    "code": "HD1179",
+    "name": "11 LADYS SENCILLO CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1179.jpeg"
+  },
+  {
+    "code": "HD1438",
+    "name": "11 LOVE CORAZON CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1438.jpeg"
+  },
+  {
+    "code": "HD1462",
+    "name": "11 MAX AMOR - CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1462.jpeg"
+  },
+  {
+    "code": "HD1311",
+    "name": "11 MAX ANILLO_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1311.jpeg"
+  },
+  {
+    "code": "HD1403",
+    "name": "11 MAX ANILLO_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1403.jpeg"
+  },
+  {
+    "code": "HD1167",
+    "name": "11 MAX CADENA CORAZONES CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1167.jpeg"
+  },
+  {
+    "code": "HD1144",
+    "name": "11 MAX CORAZON_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1144.jpeg"
+  },
+  {
+    "code": "HD1180",
+    "name": "11 MAX LADYS SENCILLO CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1180.jpeg"
+  },
+  {
+    "code": "HD1052",
+    "name": "11 MAX MATE CHINA_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1052.jpeg"
+  },
+  {
+    "code": "HD1216",
+    "name": "11 MAX MATIZADO - CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1216.jpeg"
+  },
+  {
+    "code": "HD1356",
+    "name": "11 MAX PERLAS_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1356.jpeg"
+  },
+  {
+    "code": "HD1128",
+    "name": "11 MAX PROTECTOR_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1128.jpeg"
+  },
+  {
+    "code": "HD1334",
+    "name": "11 MAX SUPREME_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1334.jpeg"
+  },
+  {
+    "code": "HD1096",
+    "name": "11 MAX TRANSPARENTE CH_CARCASA",
+    "price": 0.2,
+    "image": "../catalogo/HD1096.jpeg"
+  },
+  {
+    "code": "HD1355",
+    "name": "11 PERLAS - CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1355.jpeg"
+  },
+  {
+    "code": "HD1238",
+    "name": "11 RELIEVE FIGURAS CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1238.jpeg"
+  },
+  {
+    "code": "HD1297",
+    "name": "11 TACOS PROTECTOR CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1297.jpeg"
+  },
+  {
+    "code": "HD1193",
+    "name": "11MAX ARCOIRIS CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1193.jpeg"
+  },
+  {
+    "code": "HD1531",
+    "name": "11MAX BORDE DE COLOR CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1531.jpeg"
+  },
+  {
+    "code": "HD1485",
+    "name": "11MAX BROCHE UNICOLOR CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1485.jpeg"
+  },
+  {
+    "code": "HD1416",
+    "name": "11MAX ESCARCHADO CON BROCHE CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1416.jpeg"
+  },
+  {
+    "code": "HD1508",
+    "name": "11MAX FLOWERS CADENA CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1508.jpeg"
+  },
+  {
+    "code": "HD1275",
+    "name": "11MAX IPHONE UNICOLOR CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1275.jpeg"
+  },
+  {
+    "code": "HD1380",
+    "name": "11MAX LAZO GIRLS CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1380.jpeg"
+  },
+  {
+    "code": "HD1439",
+    "name": "11MAX LOVE CORAZON CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1439.jpeg"
+  },
+  {
+    "code": "HD1239",
+    "name": "11MAX RELIEVE FIGURAS CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1239.jpeg"
+  },
+  {
+    "code": "HD1262",
+    "name": "11MAX SUPREME1 CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1262.jpeg"
+  },
+  {
+    "code": "HD1298",
+    "name": "11MAX TACOS PROTECTOR CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1298.jpeg"
+  },
+  {
+    "code": "HD1824",
+    "name": "18W FOCO CHINA",
+    "price": 2.0,
+    "image": "../catalogo/HD1824.jpeg"
+  },
+  {
+    "code": "HD1461",
+    "name": "1P 11 AMOR - CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1461.jpeg"
+  },
+  {
+    "code": "HD3654",
+    "name": "3654 GAFAS CHINA",
+    "price": 3.5,
+    "image": "../catalogo/HD3654.jpeg"
+  },
+  {
+    "code": "HD3179",
+    "name": "3D 05/2021 VISUALIZACION LAMPARA CREATIVE_FIG",
+    "price": 4.5,
+    "image": "../catalogo/HD3179.jpeg"
+  },
+  {
+    "code": "HD5300",
+    "name": "5300 TRANSPARENTE CHINA",
+    "price": 1.0,
+    "image": "../catalogo/HD5300.jpeg"
+  },
+  {
+    "code": "HD5301",
+    "name": "5301 TRANSPARENTE CHINA",
+    "price": 1.6,
+    "image": "../catalogo/HD5301.jpeg"
+  },
+  {
+    "code": "HD5304",
+    "name": "5304 TRANSPARENTE CHINA",
+    "price": 1.6,
+    "image": "../catalogo/HD5304.jpeg"
+  },
+  {
+    "code": "HD5305",
+    "name": "5305 TRANSPARENTE CHINA",
+    "price": 1.6,
+    "image": "../catalogo/HD5305.jpeg"
+  },
+  {
+    "code": "HD5309",
+    "name": "5309 CELESTE CHINA",
+    "price": 1.6,
+    "image": "../catalogo/HD5309.jpeg"
+  },
+  {
+    "code": "HD5312",
+    "name": "5312 ROSA CHINA",
+    "price": 1.0,
+    "image": "../catalogo/HD5312.jpeg"
+  },
+  {
+    "code": "HD5313",
+    "name": "5313 TRANSPARENTE CHINA",
+    "price": 1.6,
+    "image": "../catalogo/HD5313.jpeg"
+  },
+  {
+    "code": "HD5314",
+    "name": "5314 ROJO CHINA",
+    "price": 2.3,
+    "image": "../catalogo/HD5314.jpeg"
+  },
+  {
+    "code": "HD5315",
+    "name": "5315 FUCSIA CHINA",
+    "price": 2.3,
+    "image": "../catalogo/HD5315.jpeg"
+  },
+  {
+    "code": "HD5316",
+    "name": "5316 ROSA CHINA",
+    "price": 2.3,
+    "image": "../catalogo/HD5316.jpeg"
+  },
+  {
+    "code": "HD5317",
+    "name": "5317 CELESTE CHINA",
+    "price": 2.3,
+    "image": "../catalogo/HD5317.jpeg"
+  },
+  {
+    "code": "HD5318",
+    "name": "5318 TRANSPARENTE CHINA",
+    "price": 1.2,
+    "image": "../catalogo/HD5318.jpeg"
+  },
+  {
+    "code": "HD5319",
+    "name": "5319 FUCSIA CHINA",
+    "price": 1.1,
+    "image": "../catalogo/HD5319.jpeg"
+  },
+  {
+    "code": "HD5320",
+    "name": "5320 ROSA CHINA",
+    "price": 1.1,
+    "image": "../catalogo/HD5320.jpeg"
+  },
+  {
+    "code": "HD5321",
+    "name": "5321 CELESTE CHINA",
+    "price": 1.1,
+    "image": "../catalogo/HD5321.jpeg"
+  },
+  {
+    "code": "HD3246",
+    "name": "5363-2 WISKERO VASO 05/2021 LA CAJA ESTA 4,20",
+    "price": 4.2,
+    "image": "../catalogo/HD3246.jpeg"
+  },
+  {
+    "code": "HD4457",
+    "name": "570-5 RELOJ 30*30*4CM",
+    "price": 4.0,
+    "image": "../catalogo/HD4457.jpeg"
+  },
+  {
+    "code": "HD1450",
+    "name": "5S AMOR CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1450.jpeg"
+  },
+  {
+    "code": "HD1299",
+    "name": "5S ANILLO ROSA CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1299.jpeg"
+  },
+  {
+    "code": "HD1181",
+    "name": "5S ARCOIRIS CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1181.jpeg"
+  },
+  {
+    "code": "HD1519",
+    "name": "5S BORDE DE COLOR CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1519.jpeg"
+  },
+  {
+    "code": "HD1473",
+    "name": "5S BROCHE UNICOLOR CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1473.jpeg"
+  },
+  {
+    "code": "HD1155",
+    "name": "5S CADENA CORAZONES CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1155.jpeg"
+  },
+  {
+    "code": "HD1132",
+    "name": "5S CORAZON ESPEJO CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1132.jpeg"
+  },
+  {
+    "code": "HD1404",
+    "name": "5S ESCARCHADO CON BROCHE CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1404.jpeg"
+  },
+  {
+    "code": "HD1496",
+    "name": "5S FLOWERS CADENA CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1496.jpeg"
+  },
+  {
+    "code": "HD1263",
+    "name": "5S IPHONE UNICOLOR CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1263.jpeg"
+  },
+  {
+    "code": "HD1168",
+    "name": "5S LADYS SENCILLO CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1168.jpeg"
+  },
+  {
+    "code": "HD1368",
+    "name": "5S LAZO GIRLS CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1368.jpeg"
+  },
+  {
+    "code": "HD1427",
+    "name": "5S LOVE CORAZON CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1427.jpeg"
+  },
+  {
+    "code": "HD1204",
+    "name": "5S MATIZADO CON DORADO CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1204.jpeg"
+  },
+  {
+    "code": "HD1345",
+    "name": "5S PERLAS CORAZON CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1345.jpeg"
+  },
+  {
+    "code": "HD1115",
+    "name": "5S PROTECTOR TELF CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1115.jpeg"
+  },
+  {
+    "code": "HD1227",
+    "name": "5S RELIEVE FIGURAS CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1227.jpeg"
+  },
+  {
+    "code": "HD1391",
+    "name": "5S STAR CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1391.jpeg"
+  },
+  {
+    "code": "HD1250",
+    "name": "5S SUPREME1 CH-CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1250.jpeg"
+  },
+  {
+    "code": "HD1322",
+    "name": "5S SUPREME2 CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1322.jpeg"
+  },
+  {
+    "code": "HD1286",
+    "name": "5S TACOS PROTECTOR CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1286.jpeg"
+  },
+  {
+    "code": "HD1103",
+    "name": "5S TRANSPARENTE CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1103.jpeg"
+  },
+  {
+    "code": "HD1133",
+    "name": "6 CORAZON ESPEJO CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1133.jpeg"
+  },
+  {
+    "code": "HD1453",
+    "name": "6 PLUS AMOR_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1453.jpeg"
+  },
+  {
+    "code": "HD1301",
+    "name": "6 PLUS ANILLO_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1301.jpeg"
+  },
+  {
+    "code": "HD1135",
+    "name": "6 PLUS CORAZON_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1135.jpeg"
+  },
+  {
+    "code": "HD1371",
+    "name": "6 PLUS LAZO_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1371.jpeg"
+  },
+  {
+    "code": "HD1207",
+    "name": "6 PLUS MATIZADO_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1207.jpeg"
+  },
+  {
+    "code": "HD1367",
+    "name": "6 PLUS PERLAS_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1367.jpeg"
+  },
+  {
+    "code": "HD1118",
+    "name": "6 PLUS PROTECTOR_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1118.jpeg"
+  },
+  {
+    "code": "HD1394",
+    "name": "6 PLUS STAR_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1394.jpeg"
+  },
+  {
+    "code": "HD1325",
+    "name": "6 PLUS SUPREME - CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1325.jpeg"
+  },
+  {
+    "code": "HD1253",
+    "name": "6 PLUS SUPREME_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1253.jpeg"
+  },
+  {
+    "code": "HD1116",
+    "name": "6 PROTECTOR TELF CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1116.jpeg"
+  },
+  {
+    "code": "HD3230",
+    "name": "6118 AGENDAS GRANDE 05/2021",
+    "price": 2.0,
+    "image": "../catalogo/HD3230.jpeg"
+  },
+  {
+    "code": "HD3231",
+    "name": "6125 AGENDAS MEDIANA 05/2021",
+    "price": 2.0,
+    "image": "../catalogo/HD3231.jpeg"
+  },
+  {
+    "code": "HD650",
+    "name": "650 GAFAS CHINA",
+    "price": 1.5,
+    "image": "../catalogo/HD650.jpeg"
+  },
+  {
+    "code": "HD2248",
+    "name": "652 GAFAS CHINA",
+    "price": 1.4,
+    "image": "../catalogo/HD2248.jpeg"
+  },
+  {
+    "code": "HD2250",
+    "name": "657 GAFAS CHINA",
+    "price": 2.5,
+    "image": "../catalogo/HD2250.jpeg"
+  },
+  {
+    "code": "HD2235",
+    "name": "660 GAFAS CHINA",
+    "price": 2.5,
+    "image": "../catalogo/HD2235.jpeg"
+  },
+  {
+    "code": "HD2242",
+    "name": "661 GAFAS CHINA",
+    "price": 1.4,
+    "image": "../catalogo/HD2242.jpeg"
+  },
+  {
+    "code": "HD2249",
+    "name": "662 GAFAS CHINA",
+    "price": 2.5,
+    "image": "../catalogo/HD2249.jpeg"
+  },
+  {
+    "code": "HD2244",
+    "name": "663 GAFAS CHINA",
+    "price": 1.4,
+    "image": "../catalogo/HD2244.jpeg"
+  },
+  {
+    "code": "HD0665",
+    "name": "665 GAFAS CHINA",
+    "price": 1.4,
+    "image": "../catalogo/HD0665.jpeg"
+  },
+  {
+    "code": "HD2247",
+    "name": "666 GAFAS CHINA",
+    "price": 2.5,
+    "image": "../catalogo/HD2247.jpeg"
+  },
+  {
+    "code": "HD4505",
+    "name": "66659 MOCHILA",
+    "price": 6.0,
+    "image": "../catalogo/HD4505.jpeg"
+  },
+  {
+    "code": "HD3108",
+    "name": "668-17 GYM BABY 05/2021",
+    "price": 10.0,
+    "image": "../catalogo/HD3108.jpeg"
+  },
+  {
+    "code": "HD3322",
+    "name": "66BT AURICULARES BLUETOOTH 05/2021",
+    "price": 4.7,
+    "image": "../catalogo/HD3322.jpeg"
+  },
+  {
+    "code": "HD4518",
+    "name": "6735 MOCHILA",
+    "price": 6.0,
+    "image": "../catalogo/HD4518.jpeg"
+  },
+  {
+    "code": "HD6802",
+    "name": "6802 EXAGONAL CHINA",
+    "price": 2.1,
+    "image": "../catalogo/HD6802.jpeg"
+  },
+  {
+    "code": "HD4513",
+    "name": "69807 MOCHILA",
+    "price": 6.0,
+    "image": "../catalogo/HD4513.jpeg"
+  },
+  {
+    "code": "HD1451",
+    "name": "6G AMOR CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1451.jpeg"
+  },
+  {
+    "code": "HD1300",
+    "name": "6G ANILLO ROSA CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1300.jpeg"
+  },
+  {
+    "code": "HD1182",
+    "name": "6G ARCOIRIS CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1182.jpeg"
+  },
+  {
+    "code": "HD1520",
+    "name": "6G BORDE DE COLOR CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1520.jpeg"
+  },
+  {
+    "code": "HD1474",
+    "name": "6G BROCHE UNICOLOR CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1474.jpeg"
+  },
+  {
+    "code": "HD1156",
+    "name": "6G CADENA CORAZONES CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1156.jpeg"
+  },
+  {
+    "code": "HD1405",
+    "name": "6G ESCARCHADO CON BROCHE CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1405.jpeg"
+  },
+  {
+    "code": "HD1497",
+    "name": "6G FLOWERS CADENA CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1497.jpeg"
+  },
+  {
+    "code": "HD1264",
+    "name": "6G IPHONE UNICOLOR CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1264.jpeg"
+  },
+  {
+    "code": "HD1169",
+    "name": "6G LADYS SENCILLO CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1169.jpeg"
+  },
+  {
+    "code": "HD1205",
+    "name": "6G MATIZADO CON DORADO CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1205.jpeg"
+  },
+  {
+    "code": "HD1346",
+    "name": "6G PERLAS CORAZON CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1346.jpeg"
+  },
+  {
+    "code": "HD1228",
+    "name": "6G RELIEVE FIGURAS CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1228.jpeg"
+  },
+  {
+    "code": "HD1392",
+    "name": "6G STAR CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1392.jpeg"
+  },
+  {
+    "code": "HD1251",
+    "name": "6G SUPREME1 CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1251.jpeg"
+  },
+  {
+    "code": "HD1323",
+    "name": "6G SUPREME2 CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1323.jpeg"
+  },
+  {
+    "code": "HD1287",
+    "name": "6G TACOS PROTECTOR CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1287.jpeg"
+  },
+  {
+    "code": "HD1184",
+    "name": "6PLUS ARCOIRIS CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1184.jpeg"
+  },
+  {
+    "code": "HD1522",
+    "name": "6PLUS BORDE DE COLOR CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1522.jpeg"
+  },
+  {
+    "code": "HD1475",
+    "name": "6PLUS BROCHE UNICOLOR CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1475.jpeg"
+  },
+  {
+    "code": "HD1158",
+    "name": "6PLUS CADENA CORAZONES CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1158.jpeg"
+  },
+  {
+    "code": "HD1407",
+    "name": "6PLUS ESCARCHADO CON BROCHE CH",
+    "price": 1.0,
+    "image": "../catalogo/HD1407.jpeg"
+  },
+  {
+    "code": "HD1499",
+    "name": "6PLUS FLOWERS CADENA CH",
+    "price": 1.0,
+    "image": "../catalogo/HD1499.jpeg"
+  },
+  {
+    "code": "HD1266",
+    "name": "6PLUS IPHONE UNICOLOR CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1266.jpeg"
+  },
+  {
+    "code": "HD1171",
+    "name": "6PLUS LADYS SENCILLO CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1171.jpeg"
+  },
+  {
+    "code": "HD1430",
+    "name": "6PLUS LOVE CORAZON CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1430.jpeg"
+  },
+  {
+    "code": "HD1067",
+    "name": "6PLUS OSCURO CHINA_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1067.jpeg"
+  },
+  {
+    "code": "HD1230",
+    "name": "6PLUS RELIEVE FIGURAS CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1230.jpeg"
+  },
+  {
+    "code": "HD1289",
+    "name": "6PLUS TACOS PROTECTOR CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1289.jpeg"
+  },
+  {
+    "code": "HD1105",
+    "name": "6PLUS TRANSPARENTE CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1105.jpeg"
+  },
+  {
+    "code": "HD1452",
+    "name": "6S AMOR CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1452.jpeg"
+  },
+  {
+    "code": "HD1302",
+    "name": "6S ANILLO ROSA CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1302.jpeg"
+  },
+  {
+    "code": "HD1183",
+    "name": "6S ARCOIRIS CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1183.jpeg"
+  },
+  {
+    "code": "HD1521",
+    "name": "6S BORDE DE COLOR CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1521.jpeg"
+  },
+  {
+    "code": "HD1476",
+    "name": "6S BROCHE UNICOLOR CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1476.jpeg"
+  },
+  {
+    "code": "HD1157",
+    "name": "6S CADENA CORAZONES CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1157.jpeg"
+  },
+  {
+    "code": "HD1134",
+    "name": "6S CORAZON ESPEJO CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1134.jpeg"
+  },
+  {
+    "code": "HD1406",
+    "name": "6S ESCARCHADO CON BROCHE CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1406.jpeg"
+  },
+  {
+    "code": "HD1498",
+    "name": "6S FLOWERS CADENA CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1498.jpeg"
+  },
+  {
+    "code": "HD1265",
+    "name": "6S IPHONE UNICOLOR CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1265.jpeg"
+  },
+  {
+    "code": "HD1170",
+    "name": "6S LADYS SENCILLO CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1170.jpeg"
+  },
+  {
+    "code": "HD1370",
+    "name": "6S LAZO GIRLS CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1370.jpeg"
+  },
+  {
+    "code": "HD1429",
+    "name": "6S LOVE CORAZON CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1429.jpeg"
+  },
+  {
+    "code": "HD1347",
+    "name": "6S PERLAS CORAZON CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1347.jpeg"
+  },
+  {
+    "code": "HD1117",
+    "name": "6S PROTECTOR TELF CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1117.jpeg"
+  },
+  {
+    "code": "HD1229",
+    "name": "6S RELIEVE FIGURAS CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1229.jpeg"
+  },
+  {
+    "code": "HD1393",
+    "name": "6S STAR CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1393.jpeg"
+  },
+  {
+    "code": "HD1252",
+    "name": "6S SUPREME1 CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1252.jpeg"
+  },
+  {
+    "code": "HD1324",
+    "name": "6S SUPREME2 CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1324.jpeg"
+  },
+  {
+    "code": "HD1288",
+    "name": "6S TACO PROTECTOR CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1288.jpeg"
+  },
+  {
+    "code": "HD1100",
+    "name": "6S TRANSPARENTE CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1100.jpeg"
+  },
+  {
+    "code": "HD1136",
+    "name": "7 CORAZON ESPEJO CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1136.jpeg"
+  },
+  {
+    "code": "HD1068",
+    "name": "7 OSCURO CHINA_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1068.jpeg"
+  },
+  {
+    "code": "HD1455",
+    "name": "7 PLUS AMOR_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1455.jpeg"
+  },
+  {
+    "code": "HD1304",
+    "name": "7 PLUS ANILLO_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1304.jpeg"
+  },
+  {
+    "code": "HD1137",
+    "name": "7 PLUS CORAZON_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1137.jpeg"
+  },
+  {
+    "code": "HD1373",
+    "name": "7 PLUS LAZO - CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1373.jpeg"
+  },
+  {
+    "code": "HD1209",
+    "name": "7 PLUS MATIZADO_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1209.jpeg"
+  },
+  {
+    "code": "HD1081",
+    "name": "7 PLUS OSCURO_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1081.jpeg"
+  },
+  {
+    "code": "HD1349",
+    "name": "7 PLUS PERLAS -CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1349.jpeg"
+  },
+  {
+    "code": "HD1120",
+    "name": "7 PLUS PROTECTOR_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1120.jpeg"
+  },
+  {
+    "code": "HD1396",
+    "name": "7 PLUS STARS - CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1396.jpeg"
+  },
+  {
+    "code": "HD1255",
+    "name": "7 PLUS SUPREME_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1255.jpeg"
+  },
+  {
+    "code": "HD1327",
+    "name": "7 PLUS SUPREME_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1327.jpeg"
+  },
+  {
+    "code": "HD1093",
+    "name": "7 TRANSPARENTE CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1093.jpeg"
+  },
+  {
+    "code": "HD1454",
+    "name": "7G AMOR CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1454.jpeg"
+  },
+  {
+    "code": "HD1303",
+    "name": "7G ANILLO ROSA CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1303.jpeg"
+  },
+  {
+    "code": "HD1185",
+    "name": "7G ARCOIRIS CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1185.jpeg"
+  },
+  {
+    "code": "HD1523",
+    "name": "7G BORDE DE COLOR CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1523.jpeg"
+  },
+  {
+    "code": "HD1477",
+    "name": "7G BROCHE UNICOLOR CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1477.jpeg"
+  },
+  {
+    "code": "HD1159",
+    "name": "7G CADENA CORAZONES CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1159.jpeg"
+  },
+  {
+    "code": "HD1408",
+    "name": "7G ESCARCHADO CON BROCHE CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1408.jpeg"
+  },
+  {
+    "code": "HD1500",
+    "name": "7G FLOWERS CADENA CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1500.jpeg"
+  },
+  {
+    "code": "HD1267",
+    "name": "7G IPHONE UNICOLOR CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1267.jpeg"
+  },
+  {
+    "code": "HD1172",
+    "name": "7G LADYS SENCILLO CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1172.jpeg"
+  },
+  {
+    "code": "HD1372",
+    "name": "7G LAZO GIRLS CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1372.jpeg"
+  },
+  {
+    "code": "HD1431",
+    "name": "7G LOVE CORAZON CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1431.jpeg"
+  },
+  {
+    "code": "HD1348",
+    "name": "7G PERLAS CORAZON CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1348.jpeg"
+  },
+  {
+    "code": "HD1231",
+    "name": "7G RELIEVE FIGURAS CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1231.jpeg"
+  },
+  {
+    "code": "HD1395",
+    "name": "7G STAR CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1395.jpeg"
+  },
+  {
+    "code": "HD1290",
+    "name": "7G TACOS PROTECTOR CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1290.jpeg"
+  },
+  {
+    "code": "HD1186",
+    "name": "7PLUS ARCOIRIS CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1186.jpeg"
+  },
+  {
+    "code": "HD1524",
+    "name": "7PLUS BORDE DE COLOR CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1524.jpeg"
+  },
+  {
+    "code": "HD1478",
+    "name": "7PLUS BROCHE UNICOLOR CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1478.jpeg"
+  },
+  {
+    "code": "HD1160",
+    "name": "7PLUS CADENA CORAZONES CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1160.jpeg"
+  },
+  {
+    "code": "HD1409",
+    "name": "7PLUS ESCARCHADO CON BROCHE CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1409.jpeg"
+  },
+  {
+    "code": "HD1501",
+    "name": "7PLUS FLOWERS CADENA CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1501.jpeg"
+  },
+  {
+    "code": "HD1268",
+    "name": "7PLUS IPHONE UNICOLOR CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1268.jpeg"
+  },
+  {
+    "code": "HD1173",
+    "name": "7PLUS LADYS SENCILLO CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1173.jpeg"
+  },
+  {
+    "code": "HD1432",
+    "name": "7PLUS LOVE CORAZON CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1432.jpeg"
+  },
+  {
+    "code": "HD1232",
+    "name": "7PLUS RELIEVE FIGURAS CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1232.jpeg"
+  },
+  {
+    "code": "HD1291",
+    "name": "7PLUS TACOS PROTECTOR CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1291.jpeg"
+  },
+  {
+    "code": "HD1090",
+    "name": "7PLUS TRANSPARENTE CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1090.jpeg"
+  },
+  {
+    "code": "HD1211",
+    "name": "8 BLUS MATIZADO_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1211.jpeg"
+  },
+  {
+    "code": "HD1045",
+    "name": "8 MATE CHINA_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1045.jpeg"
+  },
+  {
+    "code": "HD1046",
+    "name": "8 MATE PLUS CHINA_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1046.jpeg"
+  },
+  {
+    "code": "HD1457",
+    "name": "8 PLUS AMOR_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1457.jpeg"
+  },
+  {
+    "code": "HD1139",
+    "name": "8 PLUS CORAZON_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1139.jpeg"
+  },
+  {
+    "code": "HD1375",
+    "name": "8 PLUS LAZO_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1375.jpeg"
+  },
+  {
+    "code": "HD1082",
+    "name": "8 PLUS OSCURO_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1082.jpeg"
+  },
+  {
+    "code": "HD1351",
+    "name": "8 PLUS PERLAS_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1351.jpeg"
+  },
+  {
+    "code": "HD1123",
+    "name": "8 PLUS PROTECTOR_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1123.jpeg"
+  },
+  {
+    "code": "HD1398",
+    "name": "8 PLUS STAR_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1398.jpeg"
+  },
+  {
+    "code": "HD1257",
+    "name": "8 PLUS SUPREME_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1257.jpeg"
+  },
+  {
+    "code": "HD1329",
+    "name": "8 PLUS SUPREME_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1329.jpeg"
+  },
+  {
+    "code": "HD1102",
+    "name": "8 TRANSPARENTE CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1102.jpeg"
+  },
+  {
+    "code": "HD1879",
+    "name": "8*10J PORTARETRATO CHINA",
+    "price": 1.6,
+    "image": "../catalogo/HD1879.jpeg"
+  },
+  {
+    "code": "HD3148",
+    "name": "8014-3 ESTUCHE COSMETICO X3 05/2021",
+    "price": 13.8,
+    "image": "../catalogo/HD3148.jpeg"
+  },
+  {
+    "code": "HD4520",
+    "name": "8015 MOCHILA",
+    "price": 6.0,
+    "image": "../catalogo/HD4520.jpeg"
+  },
+  {
+    "code": "HD3229",
+    "name": "81225-2 AGENDAS 05/2021",
+    "price": 1.0,
+    "image": "../catalogo/HD3229.jpeg"
+  },
+  {
+    "code": "HD3135",
+    "name": "8165HP CAMARA 05/2021",
+    "price": 20.5,
+    "image": "../catalogo/HD3135.jpeg"
+  },
+  {
+    "code": "HD3136",
+    "name": "8166XP CAMARA 05/2021",
+    "price": 20.5,
+    "image": "../catalogo/HD3136.jpeg"
+  },
+  {
+    "code": "HD2133",
+    "name": "8311 TERMO 500ML SZM",
+    "price": 2.7,
+    "image": "../catalogo/HD2133.jpeg"
+  },
+  {
+    "code": "HD1753",
+    "name": "8827 VENTILADOR CHINA",
+    "price": 3.3,
+    "image": "../catalogo/HD1753.jpeg"
+  },
+  {
+    "code": "HD4372",
+    "name": "8B SARTEN PORCELAN CUADRADO",
+    "price": 1.9,
+    "image": "../catalogo/HD4372.jpeg"
+  },
+  {
+    "code": "HD1456",
+    "name": "8G AMOR CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1456.jpeg"
+  },
+  {
+    "code": "HD1187",
+    "name": "8G ARCOIRIS CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1187.jpeg"
+  },
+  {
+    "code": "HD1525",
+    "name": "8G BORDE DE COLOR CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1525.jpeg"
+  },
+  {
+    "code": "HD1479",
+    "name": "8G BROCHE UNICOLOR CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1479.jpeg"
+  },
+  {
+    "code": "HD1161",
+    "name": "8G CADENA CORAZONES CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1161.jpeg"
+  },
+  {
+    "code": "HD1410",
+    "name": "8G ESCARCHADO CON BROCHE CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1410.jpeg"
+  },
+  {
+    "code": "HD1502",
+    "name": "8G FLOWERS CADENA CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1502.jpeg"
+  },
+  {
+    "code": "HD1269",
+    "name": "8G IPHONE UNICOLOR CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1269.jpeg"
+  },
+  {
+    "code": "HD1174",
+    "name": "8G LADYS SENCILLO CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1174.jpeg"
+  },
+  {
+    "code": "HD1374",
+    "name": "8G LAZO GIRLS CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1374.jpeg"
+  },
+  {
+    "code": "HD1433",
+    "name": "8G LOVE CORAZON CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1433.jpeg"
+  },
+  {
+    "code": "HD1233",
+    "name": "8G RELIEVE FIGURAS CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1233.jpeg"
+  },
+  {
+    "code": "HD1397",
+    "name": "8G STAR CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1397.jpeg"
+  },
+  {
+    "code": "HD1292",
+    "name": "8G TACOS PROTECTOR CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1292.jpeg"
+  },
+  {
+    "code": "HD1306",
+    "name": "8PERLAS_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1306.jpeg"
+  },
+  {
+    "code": "HD1188",
+    "name": "8PLUS ARCOIRIS CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1188.jpeg"
+  },
+  {
+    "code": "HD1526",
+    "name": "8PLUS BORDE DE COLOR CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1526.jpeg"
+  },
+  {
+    "code": "HD1480",
+    "name": "8PLUS BROCHE UNICOLOR CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1480.jpeg"
+  },
+  {
+    "code": "HD1162",
+    "name": "8PLUS CADENA CORAZONES CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1162.jpeg"
+  },
+  {
+    "code": "HD1411",
+    "name": "8PLUS ESCARCHADO CON BROCHE CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1411.jpeg"
+  },
+  {
+    "code": "HD1503",
+    "name": "8PLUS FLOWERS CADENA CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1503.jpeg"
+  },
+  {
+    "code": "HD1270",
+    "name": "8PLUS IPHONE UNICOLOR CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1270.jpeg"
+  },
+  {
+    "code": "HD1175",
+    "name": "8PLUS LADYS SENCILLO CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1175.jpeg"
+  },
+  {
+    "code": "HD1434",
+    "name": "8PLUS LOVE CORAZON CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1434.jpeg"
+  },
+  {
+    "code": "HD1234",
+    "name": "8PLUS RELIEVE FIGURAS CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1234.jpeg"
+  },
+  {
+    "code": "HD1293",
+    "name": "8PLUS TACOS PROTECTOR CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1293.jpeg"
+  },
+  {
+    "code": "HD1101",
+    "name": "8PLUS TRANSPARENTE CH_CARCASA",
+    "price": 1.0,
+    "image": "../catalogo/HD1101.jpeg"
+  },

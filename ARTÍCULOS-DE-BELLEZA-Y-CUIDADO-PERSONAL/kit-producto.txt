@@ -1,0 +1,253 @@
+{
+  "code": "HD636",
+  "name": "BROCHA",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD636.jpeg"
+},
+
+
+{
+  "code": "HD635",
+  "name": "SET DE BROCHA MAQUILLAJE",
+  "price": 1.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD635.jpeg"
+},
+
+
+{
+  "code": "HD3383",
+  "name": "TOALLITAS COMPRIMIDA X100PZ HD",
+  "price": 3.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3383.jpeg"
+},
+
+
+{
+  "code": "HD3441",
+  "name": "TOALLITAS DE ALGODON X200PZ HD",
+  "price": 2.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3441.jpeg"
+},
+
+
+{
+  "code": "HD3438",
+  "name": "TOALLITAS COMPRIMIDA X20 PZ HD",
+  "price": 1.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3438.jpeg"
+},
+
+
+{
+  "code": "HD3670",
+  "name": "CEPILLO DE DIENTE ELECTRICO HD SPIN SMILE",
+  "price": 4.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3670.jpeg"
+},
+
+
+{
+  "code": "HD3314",
+  "name": "CEPILLO DE DIENTE ELECTRICO 05/2021",
+  "price": 3.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3314.jpeg"
+},
+
+{
+  "code": "HD597",
+  "name": "CEPILLO DE LABIOS AKIO",
+  "price": 0.25,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD597.jpeg"
+},
+
+
+{
+  "code": "HD2180",
+  "name": "CEPILLO DE PESTAÑAS LIANG CHENG",
+  "price": 0.60,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD2180.jpeg"
+},
+
+
+{
+  "code": "4010355307736",
+  "name": "CEPILLO FACIAL",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/4010355307736.jpeg"
+},
+
+
+{
+  "code": "HD4105",
+  "name": "CEPILLO PARA PIE HD",
+  "price": 0.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4105.jpeg"
+},
+
+
+{
+  "code": "HD3857",
+  "name": "CEPILLO DE DIENTES 318 HD",
+  "price": 0.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3857.jpeg"
+},
+
+
+{
+  "code": "HD4032",
+  "name": "BALANZA CORPORAL HD P",
+  "price": 4.60,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4032.jpeg"
+},
+
+
+{
+  "code": "HD4043",
+  "name": "PRESTOBARBA X10 HD K-269",
+  "price": 2.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4043.jpeg"
+},
+
+
+{
+  "code": "HD4101",
+  "name": "VINCHA DIENTES NIÑAS HD",
+  "price": 0.25,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4101.jpeg"
+},
+
+
+{
+  "code": "HD4200",
+  "name": "TENAZA DE CABELLO HD GW-7640",
+  "price": 3.40,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4200.jpeg"
+},
+
+
+{
+  "code": "HD4199",
+  "name": "ONDULADOR DE CABELLO HD GW-12",
+  "price": 8.70,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4199.jpeg"
+},
+
+{
+  "code": "HD4069",
+  "name": "LIMPIADOR FOREVER FACIAL HD",
+  "price": 2.30,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4069.jpeg"
+},
+
+
+{
+  "code": "HD4106",
+  "name": "RECORTADOR DE CEJA X3 HD K-565",
+  "price": 1.10,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4106.jpeg"
+},
+
+
+{
+  "code": "HD4108",
+  "name": "CORTA CEJAS",
+  "price": 0.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4108.jpeg"
+},
+
+
+{
+  "code": "HD4035",
+  "name": "CORTA UÑAS",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4035.jpeg"
+},
+
+
+{
+  "code": "HD606",
+  "name": "CORTA UÑAS",
+  "price": 0.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD606.jpeg"
+},
+
+
+{
+  "code": "HD3576",
+  "name": "CUCHILLA AFEITAR HD M",
+  "price": 2.90,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3576.jpeg"
+},
+
+
+{
+  "code": "HD3689",
+  "name": "DIFUSOR FACIAL HD",
+  "price": 1.20,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3689.jpeg"
+},
+
+
+{
+  "code": "HD3688",
+  "name": "DIFUSOR FACIAL SY-883 HD",
+  "price": 2.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3688.jpeg"
+},
+
+
+{
+  "code": "HD3686",
+  "name": "DIFUSOR FACIAL SY-981 HD",
+  "price": 2.10,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3686.jpeg"
+},
+
+
+{
+  "code": "HD3685",
+  "name": "DIFUSOR FACIAL SY-993 HD",
+  "price": 2.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3685.jpeg"
+},
+
+
+{
+  "code": "HD3712",
+  "name": "LAMPARA DE UNAS HD",
+  "price": 8.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3712.jpeg"
+},
+
+
+{
+  "code": "HD3711",
+  "name": "LUZ DE RELLENO HD",
+  "price": 3.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3711.jpeg"
+},
+
+
+{
+  "code": "HD2201",
+  "name": "ESPEJO CON CARGADOR LED COSMETIC",
+  "price": 4.10,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD2201.jpeg"
+},
+
+{
+  "code": "HD2105",
+  "name": "ESPEJO CON LUCE 3 TOQUES",
+  "price": 5.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD2105.jpeg"
+},
+
+
+{"code": "HD668", "name": "ANILLO (UNIDAD)", "price": 1.00, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD668.jpeg"},
+{"code": "HD212", "name": "PEGATINAS TATUAJE MIMULATED", "price": 0.30, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD212.jpeg"},
+{"code": "HD3680", "name": "MICRODERMOABRASION 1 HD", "price": 2.10, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3680.jpeg"},
+{"code": "HD618", "name": "MAQUILLADOR", "price": 0.50, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD618.jpeg"},
+{"code": "HD7861038062353", "name": "GEL ANTIBACTERIANTE", "price": 2.75, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/7861038062353.jpeg"},
+{"code": "HD7861038062490", "name": "GEL ANTIBACTERIANTE", "price": 4.50, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/7861038062490.jpeg"}
+
+

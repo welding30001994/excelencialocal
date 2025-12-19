@@ -1,0 +1,69 @@
+{
+  "code": "HD4286",
+  "name": "BOLIGRAFO HD K1410 NEGRO",
+  "price": 0.20,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4286.jpeg"
+},
+
+{
+  "code": "HD4291",
+  "name": "BOLIGRAFO HD GT31796",
+  "price": 0.25,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4291.jpeg"
+},
+
+{
+  "code": "HD4260",
+  "name": "BOLIGRAFO HD G-12653",
+  "price": 0.25,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4260.jpeg"
+},
+
+{
+  "code": "HD4261",
+  "name": "BOLIGRAFO HD G-12652",
+  "price": 0.25,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4261.jpeg"
+},
+
+{
+  "code": "HD4267",
+  "name": "BOLIGRAFO HD RESALTADOR MB-666",
+  "price": 0.30,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4267.jpeg"
+},
+
+{
+  "code": "HD4263",
+  "name": "BOLIGRAFO HD ZUIXUA 0.4",
+  "price": 0.25,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4263.jpeg"
+},
+
+{
+  "code": "HD4250",
+  "name": "CALCULADORA HD.",
+  "price": 3.10,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4250.jpeg"
+},
+
+{
+  "code": "HD4249",
+  "name": "CALCULADORA HD",
+  "price": 3.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4249.jpeg"
+},
+
+{
+  "code": "HD3052",
+  "name": "CACTUS PORTAPLUMA CHINA",
+  "price": 1.20,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3052.jpeg"
+},
+
+{
+  "code": "HD3214",
+  "name": "9653 PORTA CARPETA PLASTICA X3 AZUL 05/2021",
+  "price": 2.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3214.jpeg"
+}

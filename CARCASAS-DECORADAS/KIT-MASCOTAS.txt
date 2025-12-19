@@ -1,0 +1,178 @@
+
+{
+  "code": "HD1067",
+  "name": "6PLUS OSCURO CHINA_CARCASA",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD1067.jpeg"
+},
+
+{
+  "code": "HD1082",
+  "name": "8 PLUS OSCURO_CARCASA",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD1082.jpeg"
+},
+
+{
+  "code": "HD1081",
+  "name": "7 PLUS OSCURO_CARCASA",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD1081.jpeg"
+},
+
+{
+  "code": "HD1211",
+  "name": "8 BLUS MATIZADO_CARCASA",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD1211.jpeg"
+},
+
+{
+  "code": "HD1340",
+  "name": "P30LITE SUPREME2 CH_CARCASA",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD1340.jpeg"
+},
+
+{
+  "code": "HD1068",
+  "name": "7 OSCURO CHINA_CARCASA",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD1068.jpeg"
+},
+
+{
+  "code": "HD1255",
+  "name": "7 PLUS SUPREME_CARCASA",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD1255.jpeg"
+},
+
+{
+  "code": "HD1257",
+  "name": "8 PLUS SUPREME_CARCASA",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD1257.jpeg"
+},
+
+{
+  "code": "HD1258",
+  "name": "X SUPREME_CARCASA",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD1258.jpeg"
+},
+
+{
+  "code": "HD1212",
+  "name": "X MATIZADO CON DORADO CH_CARCASA",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD1212.jpeg"
+},
+
+{
+  "code": "HD1253",
+  "name": "6 PLUS SUPREME_CARCASA",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD1253.jpeg"
+},
+
+{
+  "code": "HD1332",
+  "name": "XS MAX SUPREME_CARCASA",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD1332.jpeg"
+},
+
+{
+  "code": "HD1259",
+  "name": "XR SUPREME_CARCASA",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD1259.jpeg"
+},
+
+{
+  "code": "HD1062",
+  "name": "P30 LITE OSCURO_CARCASA",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD1062.jpeg"
+},
+
+{
+  "code": "HD1061",
+  "name": "P30 MATE CHINA-CARCASA",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD1061.jpeg"
+},
+
+{
+  "code": "HD1118",
+  "name": "6 PLUS PROTECTOR_CARCASA",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD1118.jpeg"
+},
+
+{
+  "code": "HD1120",
+  "name": "7 PLUS PROTECTOR_CARCASA",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD1120.jpeg"
+},
+
+{
+  "code": "HD1123",
+  "name": "8 PLUS PROTECTOR_CARCASA",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD1123.jpeg"
+},
+
+{
+  "code": "HD1128",
+  "name": "11 MAX PROTECTOR_CARCASA",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD1128.jpeg"
+},
+
+{
+  "code": "HD1125",
+  "name": "XR PROTECTOR_CARCASA",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD1125.jpeg"
+},
+
+{
+  "code": "HD1126",
+  "name": "X5 MAX PROTECTOR_CARCASA",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD1126.jpeg"
+},
+
+{
+  "code": "HD1124",
+  "name": "X PROTECTOR_CARCASA",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD1124.jpeg"
+},
+
+{
+  "code": "HD2466",
+  "name": "TRANSPARENTE_CARCASA",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD2466.jpeg"
+},
+
+{
+  "code": "HD2464",
+  "name": "COMICS VARI_CARCASA",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD2464.jpeg"
+},
+{"code": "HD1073", "name": "MICAS", "price": 1.00, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD1073.jpeg"},
+{"code": "HD1074", "name": "MICAS", "price": 1.00, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD1074.jpeg"},
+{"code": "HD1078", "name": "MICAS", "price": 1.00, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD1078.jpeg"},
+{"code": "HD1089", "name": "MICAS", "price": 1.00, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD1089.jpeg"},
+{"code": "HD1080", "name": "MICAS PARA CELULAR", "price": 1.00, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD1080.jpeg"},
+{"code": "HD1927", "name": "MINI SELFIE STICK CHINA", "price": 2.00, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD1927.jpeg"},
+{"code": "HD1200", "name": "MATE20LITE ARCOIRIS CH", "price": 1.00, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD1200.jpeg"},
+{"code": "HD1069", "name": "MATE20 LITE OSCURO_CARCASA", "price": 1.00, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD1069.jpeg"}
+
+

@@ -1,0 +1,8 @@
+{"code": "HD3849", "name": "CAPA HD/.", "price": 1.20, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3849.jpeg"},
+{"code": "HD3829", "name": "MASCARA HD.", "price": 1.00, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3829.jpeg"},
+{"code": "HD3847", "name": "CAPA HD….", "price": 2.50, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3847.jpeg"},
+{"code": "HD3846", "name": "CAPA HD 80x90.", "price": 2.30, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3846.jpeg"},
+{"code": "HD3842", "name": "CAPA HD…", "price": 3.00, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3842.jpeg"},
+{"code": "HD3851", "name": "CAPA NIÑO HD", "price": 1.90, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3851.jpeg"},
+{"code": "HD3852", "name": "CAPA HD/..", "price": 2.20, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3852.jpeg"}
+

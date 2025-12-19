@@ -1,0 +1,63 @@
+
+{
+  "code": "HD4234",
+  "name": "PRECIOS PEGATINA HD",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4234.jpeg"
+},
+
+{
+  "code": "HD4240",
+  "name": "PRECIOS PEGATINA HD 10 PCS..",
+  "price": 0.60,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4240.jpeg"
+},
+
+{
+  "code": "HD4233",
+  "name": "PEGATINA PRECIO HD 100 PCS......",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4233.jpeg"
+},
+
+{
+  "code": "HD4237",
+  "name": "PEGATINA PRECIO HD 100 PCS/...",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4237.jpeg"
+},
+
+{
+  "code": "HD4243",
+  "name": "PEGATINA PRECIO HD 10 PCS..",
+  "price": 0.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4243.jpeg"
+},
+
+{
+  "code": "HD4244",
+  "name": "PEGATINA PRECIO HD 10 PCS...",
+  "price": 0.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4244.jpeg"
+},
+
+{
+  "code": "HD4235",
+  "name": "PEGATINA PRECIO HD 100 PCS/.",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4235.jpeg"
+},
+
+{
+  "code": "HD4245",
+  "name": "PEGATINA PRECIO HD 10 PCS....",
+  "price": 0.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4245.jpeg"
+},
+
+{
+  "code": "HD4246",
+  "name": "PEGATINA PRECIO HD 10 PCS.....",
+  "price": 0.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4246.jpeg"
+}

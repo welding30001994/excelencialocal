@@ -1,0 +1,202 @@
+
+{
+  "code": "HD3702",
+  "name": "ADACTADOR HD TYPE-C JH-030",
+  "price": 2.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3702.jpeg"
+},
+
+{
+  "code": "HD3700",
+  "name": "ADACTADOR HD IPHONE",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3700.jpeg"
+},
+
+{
+  "code": "HD3696",
+  "name": "ADACTADOR TYPE-C HD",
+  "price": 1.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3696.jpeg"
+},
+
+{
+  "code": "HD3701",
+  "name": "ADACTADOR HD TYPE-C",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3701.jpeg"
+},
+
+{
+  "code": "HD3699",
+  "name": "ADACTADOR HD 3/1",
+  "price": 5.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3699.jpeg"
+},
+
+{
+  "code": "HD3705",
+  "name": "ADACTADOR HD..",
+  "price": 1.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3705.jpeg"
+},
+
+{
+  "code": "HD3697",
+  "name": "ADACTADOR HD",
+  "price": 2.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3697.jpeg"
+},
+
+{
+  "code": "HD3693",
+  "name": "ADAPTADOR TYPE-C HD.",
+  "price": 1.20,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3693.jpeg"
+},
+
+{
+  "code": "HD2037",
+  "name": "ACCE TELF U SHAPE",
+  "price": 0.20,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD2037.jpeg"
+},
+
+{
+  "code": "HD2036",
+  "name": "ACCE TELF PHONE CARD",
+  "price": 0.30,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD2036.jpeg"
+},
+
+{
+  "code": "HD2035",
+  "name": "ACCE TELF SINGLE LAYER",
+  "price": 0.20,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD2035.jpeg"
+},
+
+{
+  "code": "HD3695",
+  "name": "ADACTADOR HD.",
+  "price": 3.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3695.jpeg"
+},
+
+{
+  "code": "HD3691",
+  "name": "ADAPTADOR JH-101IP HD",
+  "price": 2.70,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3691.jpeg"
+},
+
+{
+  "code": "HD3692",
+  "name": "ADAPTADOR TYPE-C HD",
+  "price": 1.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3692.jpeg"
+},
+
+{
+  "code": "HD3704",
+  "name": "ADACTADOR HD IPHONE..",
+  "price": 2.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3704.jpeg"
+},
+
+{
+  "code": "HD3698",
+  "name": "ADACTADOR HD TC054",
+  "price": 2.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3698.jpeg"
+},
+
+{
+  "code": "HD3614",
+  "name": "ADAPTADOR A-2 HD",
+  "price": 0.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3614.jpeg"
+},
+
+{
+  "code": "HD3956",
+  "name": "TARJETA DE MEMORIA 32G HD",
+  "price": 5.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3956.jpeg"
+},
+
+{
+  "code": "HD3958",
+  "name": "TARJETA DE MEMORIA 128G HD",
+  "price": 21.30,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3958.jpeg"
+},
+
+{
+  "code": "HD6018",
+  "name": "CABLE HDMI 30MTS CHINA",
+  "price": 20.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD6018.jpeg"
+},
+
+{
+  "code": "HD6014",
+  "name": "CABLE HDMI 10MTS CHINA",
+  "price": 4.10,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD6014.jpeg"
+},
+
+{
+  "code": "HD6016",
+  "name": "CABLE HDMI 20MTS CHINA",
+  "price": 9.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD6016.jpeg"
+},
+
+{
+  "code": "HD6017",
+  "name": "CABLE HDMI 25MTS CHINA",
+  "price": 18.50,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD6017.jpeg"
+},
+
+{
+  "code": "HD1827",
+  "name": "U5 ROUTER CHINA",
+  "price": 16.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD1827.jpeg"
+},
+
+{
+  "code": "HD4646",
+  "name": "HL-550 CONTADORA BILLETE",
+  "price": 50.00,
+  "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD4646.jpeg"
+},
+
+
+{"code": "HD2004", "name": "M101 HUMIFICADOR CHINA", "price": 7.00, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD2004.jpeg"},
+{"code": "HD3340", "name": "WB-8010 TECLADO+MOUSE 05/2021", "price": 12.5, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3340.jpeg"},
+{"code": "HD3325", "name": "VZV B39 AURICULARES BLUETOOTH 05/2021", "price": 6.8, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3325.jpeg"},
+{"code": "HD3723", "name": "VENTILADOR 72194 HD", "price": 18.0, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3723.jpeg"},
+{"code": "HD2115", "name": "ESPEJO LED BOLSO CON CARGADOR", "price": 2.00, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD2115.jpeg"},
+{"code": "HD1931", "name": "COB LED CHINA", "price": 4.10, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD1931.jpeg"},
+{"code": "HD2042", "name": "LED MUSIC BULB APP", "price": 5.50, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD2042.jpeg"},
+{"code": "HD1751", "name": "LD261 VENTILADOR CHINA", "price": 3.50, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD1751.jpeg"},
+{"code": "HD3713", "name": "LAMPARA DE UNAS HD", "price": 5.00, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3713.jpeg"},
+{"code": "HD3327", "name": "BK-1 AURICULARES BLUETOOTH 05/2021", "price": 9.50, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3327.jpeg"},
+{"code": "HD1826", "name": "FOCO PARLANTE", "price": 3.00, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD1826.jpeg"},
+{"code": "HD2560", "name": "TIRA VAR MOD1 NAVIDAD", "price": 16.6, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD2560.jpeg"},
+{"code": "HD3028", "name": "PORTACELULAR CHINA3028", "price": 1.00, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3028.jpeg"},
+{"code": "HD3288", "name": "AND TX-85 CABLE + CHANCHITO 05/2021", "price": 2.50, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3288.jpeg"},
+{"code": "HD3329", "name": "M-900 TECLADO 05/2021", "price": 10.50, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3329.jpeg"},
+{"code": "HD3395", "name": "PU-31 CABLE USB X3 05/2021", "price": 2.00, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3395.jpeg"},
+{"code": "HD3616", "name": "REGLETA A028", "price": 4.00, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3616.jpeg"},
+{"code": "HD3623", "name": "REGLETA 651 HD", "price": 3.00, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3623.jpeg"},
+{"code": "HD3955", "name": "TARJETA DE MEMORIA 16G HD", "price": 5.0, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3955.jpeg"},
+{"code": "HD3957", "name": "TARJETA DE MEMORIA 64G HD", "price": 7.0, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD3957.jpeg"},
+{"code": "HD789", "name": "CABLE C001", "price": 2.00, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD789.jpeg"},
+{"code": "HD897", "name": "CABLE 3 EN 1 CHINA", "price": 2.50, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD897.jpeg"},
+{"code": "HD2000", "name": "K7 HUMIFICADOR CHINA", "price": 7.80, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD2000.jpeg"},
+{"code": "HD2003", "name": "K8 HUMIFICADOR CHINA", "price": 6.20, "image": "https://raw.githubusercontent.com/welding30001994/excelencia-oficial/refs/heads/main/catalogo/HD2003.jpeg"}
+
