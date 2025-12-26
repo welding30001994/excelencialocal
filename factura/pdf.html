@@ -1,0 +1,1202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Facturación - HD Distribuciones</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --color-primario: #1a237e;
+            --color-secundario: #283593;
+            --color-exito: #2e7d32;
+            --color-alerta: #d32f2f;
+            --color-fondo: #f5f7ff;
+            --color-borde: #c5cae9;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #e8eaf6 0%, #f5f7ff 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
+        
+        @media (max-width: 1100px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        .panel {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(26, 35, 126, 0.1);
+            overflow: hidden;
+            border: 1px solid var(--color-borde);
+        }
+        
+        .panel-header {
+            background: linear-gradient(135deg, var(--color-primario) 0%, var(--color-secundario) 100%);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .panel-content {
+            padding: 25px;
+        }
+        
+        h1 {
+            color: var(--color-primario);
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 32px;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+        }
+        
+        h2 {
+            color: var(--color-primario);
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--color-borde);
+            font-size: 24px;
+        }
+        
+        h3 {
+            font-size: 18px;
+            color: #555;
+            margin-bottom: 15px;
+        }
+        
+        .input-group {
+            margin-bottom: 20px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #444;
+            font-weight: 600;
+        }
+        
+        input, textarea, select {
+            width: 100%;
+            padding: 12px 15px;
+            border: 2px solid var(--color-borde);
+            border-radius: 8px;
+            font-size: 16px;
+            transition: all 0.3s;
+        }
+        
+        input:focus, textarea:focus, select:focus {
+            outline: none;
+            border-color: var(--color-primario);
+            box-shadow: 0 0 0 3px rgba(26, 35, 126, 0.1);
+        }
+        
+        textarea {
+            min-height: 150px;
+            resize: vertical;
+            font-family: monospace;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+        
+        .btn {
+            padding: 14px 28px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+        
+        .btn-primary {
+            background: linear-gradient(135deg, var(--color-primario) 0%, var(--color-secundario) 100%);
+            color: white;
+            width: 100%;
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(26, 35, 126, 0.3);
+        }
+        
+        .btn-success {
+            background: linear-gradient(135deg, var(--color-exito) 0%, #4caf50 100%);
+            color: white;
+        }
+        
+        .btn-success:hover {
+            background: linear-gradient(135deg, #1b5e20 0%, #388e3c 100%);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(46, 125, 50, 0.3);
+        }
+        
+        .btn-danger {
+            background: linear-gradient(135deg, #c62828 0%, #d32f2f 100%);
+            color: white;
+        }
+        
+        .btn-danger:hover {
+            background: linear-gradient(135deg, #b71c1c 0%, #c62828 100%);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(211, 47, 47, 0.3);
+        }
+        
+        .btn-group {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .factura-preview {
+            background: white;
+            border-radius: 10px;
+            padding: 25px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            height: 100%;
+            border: 1px solid var(--color-borde);
+        }
+        
+        .factura-header {
+            text-align: center;
+            margin-bottom: 25px;
+            padding-bottom: 20px;
+            border-bottom: 3px solid var(--color-primario);
+            position: relative;
+        }
+        
+        .factura-titulo {
+            color: var(--color-primario);
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+        
+        .factura-subtitulo {
+            color: var(--color-secundario);
+            font-size: 20px;
+            margin-bottom: 5px;
+        }
+        
+        .factura-numero {
+            background: var(--color-primario);
+            color: white;
+            padding: 8px 20px;
+            border-radius: 30px;
+            display: inline-block;
+            font-weight: bold;
+            font-size: 18px;
+            margin-top: 10px;
+        }
+        
+        .factura-cliente {
+            background: #f5f7ff;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+            border-left: 4px solid var(--color-primario);
+        }
+        
+        .factura-detalle {
+            overflow-x: auto;
+            margin-bottom: 20px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        
+        th {
+            background: linear-gradient(135deg, var(--color-primario) 0%, var(--color-secundario) 100%);
+            color: white;
+            padding: 15px;
+            text-align: left;
+            font-weight: 600;
+            border: none;
+        }
+        
+        td {
+            padding: 15px;
+            border-bottom: 1px solid var(--color-borde);
+        }
+        
+        tr:hover {
+            background: #f5f7ff;
+        }
+        
+        .factura-totales {
+            background: #f5f7ff;
+            padding: 25px;
+            border-radius: 8px;
+            margin-top: 20px;
+            border-top: 2px solid var(--color-primario);
+        }
+        
+        .factura-total-final {
+            font-size: 24px;
+            font-weight: bold;
+            color: var(--color-primario);
+            text-align: right;
+            margin-top: 10px;
+            padding-top: 15px;
+            border-top: 2px solid var(--color-secundario);
+        }
+        
+        .alert {
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            display: none;
+            border-left: 4px solid;
+        }
+        
+        .alert-success {
+            background: #e8f5e9;
+            color: #1b5e20;
+            border-left-color: var(--color-exito);
+        }
+        
+        .alert-warning {
+            background: #fff3e0;
+            color: #e65100;
+            border-left-color: #ff9800;
+        }
+        
+        .hidden {
+            display: none;
+        }
+        
+        .factura-actions {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+        
+        .logo {
+            font-size: 36px;
+            font-weight: bold;
+            color: var(--color-primario);
+            text-align: center;
+            margin-bottom: 20px;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+        }
+        
+        .logo span {
+            color: var(--color-secundario);
+        }
+        
+        .instructions {
+            background: #e8eaf6;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 15px;
+            font-size: 14px;
+            color: var(--color-primario);
+            border-left: 4px solid var(--color-secundario);
+        }
+        
+        .instructions ol {
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+        
+        .instructions li {
+            margin-bottom: 8px;
+        }
+        
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        
+        @media (max-width: 768px) {
+            .form-row {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        .historial-section {
+            margin-top: 40px;
+            border-top: 2px solid var(--color-borde);
+            padding-top: 20px;
+        }
+        
+        .historial-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        
+        .historial-lista {
+            max-height: 300px;
+            overflow-y: auto;
+            border: 1px solid var(--color-borde);
+            border-radius: 8px;
+            padding: 10px;
+        }
+        
+        .historial-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 15px;
+            border-bottom: 1px solid var(--color-borde);
+            transition: background 0.3s;
+        }
+        
+        .historial-item:hover {
+            background: #f5f7ff;
+        }
+        
+        .historial-item:last-child {
+            border-bottom: none;
+        }
+        
+        .historial-info {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .historial-numero {
+            font-weight: bold;
+            color: var(--color-primario);
+        }
+        
+        .historial-cliente {
+            color: #666;
+            font-size: 14px;
+        }
+        
+        .historial-acciones {
+            display: flex;
+            gap: 10px;
+        }
+        
+        .historial-btn {
+            background: none;
+            border: none;
+            color: var(--color-primario);
+            cursor: pointer;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+        
+        .historial-btn:hover {
+            color: var(--color-secundario);
+        }
+        
+        .empty-historial {
+            text-align: center;
+            padding: 40px 20px;
+            color: #888;
+        }
+        
+        .empty-historial i {
+            font-size: 48px;
+            margin-bottom: 15px;
+            color: var(--color-borde);
+        }
+        
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            z-index: 1000;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .modal-content {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            width: 90%;
+            max-width: 600px;
+            max-height: 80vh;
+            overflow-y: auto;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid var(--color-primario);
+        }
+        
+        .close-modal {
+            background: none;
+            border: none;
+            font-size: 28px;
+            cursor: pointer;
+            color: var(--color-alerta);
+        }
+        
+        .config-section {
+            margin-top: 30px;
+            border-top: 2px solid var(--color-borde);
+            padding-top: 20px;
+        }
+        
+        .config-option {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            padding: 15px;
+            background: #f9f9f9;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <i class="fas fa-boxes"></i> COMERCIAL EXCELENCIA
+    </div>
+    <h1>Sistema de Facturación Automático</h1>
+    
+    <div class="alert alert-success" id="successAlert">
+        <i class="fas fa-check-circle"></i> Factura generada exitosamente. Guardada en el historial.
+    </div>
+    
+    <div class="alert alert-warning" id="configAlert">
+        <i class="fas fa-exclamation-triangle"></i> Configura la secuencia de facturación en "Configuración"
+    </div>
+    
+    <div class="container">
+        <!-- Panel izquierdo: Entrada de datos -->
+        <div class="panel">
+            <div class="panel-header">
+                <h2>Ingresar Datos del Pedido</h2>
+            </div>
+            <div class="panel-content">
+                <div class="instructions">
+                    <strong><i class="fas fa-info-circle"></i> Instrucciones:</strong>
+                    <ol>
+                        <li>Ingresa los datos del cliente y empresa</li>
+                        <li>Pega el texto del pedido en el área de abajo</li>
+                        <li>Haz clic en "Generar Factura"</li>
+                        <li>La factura aparecerá automáticamente a la derecha</li>
+                        <li>Guarda el PDF y revisa desde "Historial"</li>
+                    </ol>
+                </div>
+                
+                <div class="form-row">
+                    <div class="input-group">
+                        <label for="clienteNombre"><i class="fas fa-user"></i> Nombre del Cliente</label>
+                        <input type="text" id="clienteNombre" placeholder="Ej: COMERCIAL LA EXCELENCIA">
+                    </div>
+                    
+                    <div class="input-group">
+                        <label for="fechaFactura"><i class="fas fa-calendar"></i> Fecha de Factura</label>
+                        <input type="date" id="fechaFactura" value="">
+                    </div>
+                </div>
+                
+                <div class="form-row">
+                    <div class="input-group">
+                        <label for="tipoFactura"><i class="fas fa-file-invoice"></i> Tipo de Factura</label>
+                        <select id="tipoFactura">
+                            <option value="HD-FAC">HD-FAC (Factura Normal)</option>
+                            <option value="HD-EXC">HD-EXC (Comercial La Excelencia)</option>
+                        </select>
+                    </div>
+                    
+                    <div class="input-group">
+                        <label for="numeroFactura"><i class="fas fa-hashtag"></i> Número de Factura</label>
+                        <input type="text" id="numeroFactura" placeholder="Ej: 000001" value="000001">
+                    </div>
+                </div>
+                
+                <div class="input-group">
+                    <label for="metodoPago"><i class="fas fa-credit-card"></i> Método de Pago</label>
+                    <select id="metodoPago">
+                        <option value="">Seleccionar método</option>
+                        <option value="Efectivo">Efectivo</option>
+                        <option value="Tarjeta de Crédito">Tarjeta de Crédito</option>
+                        <option value="Tarjeta de Débito">Tarjeta de Débito</option>
+                        <option value="Transferencia Bancaria">Transferencia Bancaria</option>
+                        <option value="Cheque">Cheque</option>
+                    </select>
+                </div>
+                
+                <div class="input-group">
+                    <label for="textoPedido"><i class="fas fa-paste"></i> Pegar texto del pedido:</label>
+                    <textarea id="textoPedido" placeholder="Pega aquí el texto con los productos...">
+1. TOALLITAS COMPRIMIDA X20 PZ HD
+   📦 Código: HD3438
+   🔢 Cantidad: 12
+   💰 Precio (12 Unidades): $1.26 c/u
+   🧮 Subtotal: $15.12
+
+2. TOALLITAS COMPRIMIDA X100PZ HD
+   📦 Código: HD3383
+   🔢 Cantidad: 12
+   💰 Precio (12 Unidades): $2.66 c/u
+   🧮 Subtotal: $31.92
+
+━━━━━━━━━━━━━━━━
+💰 TOTAL DEL PEDIDO: $47.04</textarea>
+                </div>
+                
+                <div class="btn-group">
+                    <button class="btn btn-primary" onclick="generarFactura()">
+                        <i class="fas fa-file-invoice"></i> Generar Factura
+                    </button>
+                    <button class="btn" onclick="abrirConfiguracion()" style="background: #6a1b9a; color: white;">
+                        <i class="fas fa-cog"></i> Configuración
+                    </button>
+                </div>
+                
+                <!-- Historial de Facturas -->
+                <div class="historial-section">
+                    <div class="historial-header">
+                        <h3><i class="fas fa-history"></i> Historial de Facturas</h3>
+                        <button class="btn" onclick="mostrarHistorial()" style="background: #5d4037; color: white; padding: 8px 15px;">
+                            <i class="fas fa-eye"></i> Ver Todas
+                        </button>
+                    </div>
+                    
+                    <div class="historial-lista" id="historialReciente">
+                        <div class="empty-historial">
+                            <i class="fas fa-file-alt"></i>
+                            <p>No hay facturas en el historial</p>
+                            <p>Genera una factura para verla aquí</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Panel derecho: Visualización de factura -->
+        <div class="panel">
+            <div class="panel-header">
+                <h2>Factura Generada</h2>
+            </div>
+            <div class="panel-content">
+                <div id="facturaPreview" class="hidden">
+                    <div class="factura-preview" id="facturaParaPDF">
+                        <div class="factura-header">
+                            <div class="logo" style="font-size: 28px; margin-bottom: 10px;">
+                                <i class="fas fa-boxes"></i> HDDistribuciones
+                            </div>
+                            <div class="factura-titulo">FACTURA DE VENTA</div>
+                            <div class="factura-subtitulo" id="facturaSubtitulo">COMERCIAL LA EXCELENCIA</div>
+                            <div class="factura-numero" id="facturaNumeroCompleto">N° HD-EXC-000001</div>
+                        </div>
+                        
+                        <div class="factura-cliente">
+                            <div style="margin-bottom: 10px;">
+                                <strong>Cliente:</strong> <span id="facturaCliente">COMERCIAL LA EXCELENCIA</span>
+                            </div>
+                            <div style="margin-bottom: 10px;">
+                                <strong>Fecha:</strong> <span id="facturaFecha">[Fecha]</span>
+                            </div>
+                            <div>
+                                <strong>Método de Pago:</strong> <span id="facturaPago">[Método de Pago]</span>
+                            </div>
+                        </div>
+                        
+                        <div class="factura-detalle">
+                            <table id="tablaProductos">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Código</th>
+                                        <th>Descripción</th>
+                                        <th>Cantidad</th>
+                                        <th>Precio Unit.</th>
+                                        <th>Subtotal</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!-- Los productos se insertarán aquí -->
+                                </tbody>
+                            </table>
+                        </div>
+                        
+                        <div class="factura-totales">
+                            <div style="text-align: right;">
+                                <div style="margin-bottom: 10px; font-size: 18px;">
+                                    <strong>Subtotal:</strong> <span id="facturaSubtotal">$0.00</span>
+                                </div>
+                                <div style="margin-bottom: 10px; font-size: 18px;">
+                                    <strong>Impuestos (0%):</strong> <span id="facturaImpuestos">$0.00</span>
+                                </div>
+                                <div class="factura-total-final">
+                                    TOTAL A PAGAR: <span id="facturaTotal">$0.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="factura-actions">
+                            <button class="btn btn-success" onclick="imprimirFactura()">
+                                <i class="fas fa-print"></i> Imprimir Factura
+                            </button>
+                            <button class="btn btn-primary" onclick="guardarPDF()">
+                                <i class="fas fa-file-pdf"></i> Guardar como PDF
+                            </button>
+                            <button class="btn" onclick="guardarEnHistorial()" style="background: #ff9800; color: white;">
+                                <i class="fas fa-save"></i> Guardar en Historial
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="emptyState">
+                    <div style="text-align: center; padding: 50px 20px;">
+                        <div style="font-size: 64px; margin-bottom: 20px; color: #c5cae9;">
+                            <i class="fas fa-file-invoice"></i>
+                        </div>
+                        <h3>No hay factura generada</h3>
+                        <p>Ingresa los datos a la izquierda y haz clic en "Generar Factura" para verla aquí.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal para Configuración -->
+    <div class="modal" id="configModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2><i class="fas fa-cog"></i> Configuración del Sistema</h2>
+                <button class="close-modal" onclick="cerrarConfiguracion()">&times;</button>
+            </div>
+            
+            <div class="config-section">
+                <h3>Secuencia de Facturación</h3>
+                
+                <div class="config-option">
+                    <div>
+                        <strong>HD-FAC (Factura Normal)</strong><br>
+                        <small>Secuencia actual: <span id="secuenciaHDFAC">1709</span></small>
+                    </div>
+                    <div>
+                        <input type="number" id="nuevoHDFAC" value="1709" style="width: 100px; padding: 8px;">
+                    </div>
+                </div>
+                
+                <div class="config-option">
+                    <div>
+                        <strong>HD-EXC (Comercial La Excelencia)</strong><br>
+                        <small>Secuencia actual: <span id="secuenciaHDEXC">000001</span></small>
+                    </div>
+                    <div>
+                        <input type="text" id="nuevoHDEXC" value="000001" style="width: 100px; padding: 8px;">
+                    </div>
+                </div>
+                
+                <div style="text-align: right; margin-top: 20px;">
+                    <button class="btn btn-success" onclick="guardarConfiguracion()">
+                        <i class="fas fa-save"></i> Guardar Configuración
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal para Historial -->
+    <div class="modal" id="historialModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2><i class="fas fa-history"></i> Historial Completo de Facturas</h2>
+                <button class="close-modal" onclick="cerrarHistorial()">&times;</button>
+            </div>
+            
+            <div class="historial-lista" id="historialCompleto" style="max-height: 400px;">
+                <!-- Las facturas se cargarán aquí -->
+            </div>
+            
+            <div style="text-align: center; margin-top: 20px;">
+                <button class="btn btn-danger" onclick="limpiarHistorial()">
+                    <i class="fas fa-trash"></i> Limpiar Historial
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Variables globales
+        let facturasHistorial = JSON.parse(localStorage.getItem('facturasHD')) || [];
+        let configuracion = JSON.parse(localStorage.getItem('configHD')) || {
+            hdFac: 1709,
+            hdExc: '000001'
+        };
+        
+        // Establecer fecha actual por defecto
+        document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById('fechaFactura').valueAsDate = new Date();
+            cargarConfiguracion();
+            cargarHistorialReciente();
+            mostrarAlertaConfiguracion();
+        });
+        
+        // Mostrar alerta si no se ha configurado
+        function mostrarAlertaConfiguracion() {
+            if (!localStorage.getItem('configHD')) {
+                document.getElementById('configAlert').style.display = 'block';
+            }
+        }
+        
+        // Cargar configuración
+        function cargarConfiguracion() {
+            document.getElementById('secuenciaHDFAC').textContent = configuracion.hdFac;
+            document.getElementById('secuenciaHDEXC').textContent = configuracion.hdExc;
+            document.getElementById('nuevoHDFAC').value = configuracion.hdFac;
+            document.getElementById('nuevoHDEXC').value = configuracion.hdExc;
+        }
+        
+        // Abrir modal de configuración
+        function abrirConfiguracion() {
+            document.getElementById('configModal').style.display = 'flex';
+        }
+        
+        // Cerrar modal de configuración
+        function cerrarConfiguracion() {
+            document.getElementById('configModal').style.display = 'none';
+        }
+        
+        // Guardar configuración
+        function guardarConfiguracion() {
+            configuracion.hdFac = parseInt(document.getElementById('nuevoHDFAC').value) || 1709;
+            configuracion.hdExc = document.getElementById('nuevoHDEXC').value || '000001';
+            
+            localStorage.setItem('configHD', JSON.stringify(configuracion));
+            
+            // Actualizar visualización
+            cargarConfiguracion();
+            
+            // Ocultar alerta
+            document.getElementById('configAlert').style.display = 'none';
+            
+            alert('Configuración guardada exitosamente');
+            cerrarConfiguracion();
+        }
+        
+        // Generar número de factura según tipo
+        function generarNumeroFactura(tipo) {
+            if (tipo === 'HD-FAC') {
+                const numero = configuracion.hdFac;
+                configuracion.hdFac++;
+                localStorage.setItem('configHD', JSON.stringify(configuracion));
+                return `HD-FAC-${numero}`;
+            } else {
+                const numero = configuracion.hdExc;
+                // Incrementar número HD-EXC (mantener 6 dígitos)
+                let nuevoNumero = parseInt(numero) + 1;
+                configuracion.hdExc = nuevoNumero.toString().padStart(6, '0');
+                localStorage.setItem('configHD', JSON.stringify(configuracion));
+                return `HD-EXC-${configuracion.hdExc}`;
+            }
+        }
+        
+        // Función principal para generar la factura
+        function generarFactura() {
+            const texto = document.getElementById('textoPedido').value;
+            const cliente = document.getElementById('clienteNombre').value.trim();
+            const fecha = document.getElementById('fechaFactura').value;
+            const metodoPago = document.getElementById('metodoPago').value;
+            const tipoFactura = document.getElementById('tipoFactura').value;
+            const numeroManual = document.getElementById('numeroFactura').value.trim();
+            
+            // Validaciones básicas
+            if (!cliente) {
+                alert('Por favor ingresa el nombre del cliente');
+                document.getElementById('clienteNombre').focus();
+                return;
+            }
+            
+            if (!texto) {
+                alert('Por favor ingresa el texto del pedido');
+                document.getElementById('textoPedido').focus();
+                return;
+            }
+            
+            if (!metodoPago) {
+                alert('Por favor selecciona un método de pago');
+                document.getElementById('metodoPago').focus();
+                return;
+            }
+            
+            // Procesar el texto del pedido
+            const productos = procesarTextoPedido(texto);
+            
+            if (productos.length === 0) {
+                alert('No se pudieron procesar los productos. Verifica el formato del texto.');
+                return;
+            }
+            
+            // Calcular total
+            const total = productos.reduce((sum, prod) => sum + prod.subtotal, 0);
+            
+            // Generar o usar número de factura
+            let numeroFactura;
+            if (numeroManual) {
+                numeroFactura = `${tipoFactura}-${numeroManual.padStart(6, '0')}`;
+            } else {
+                numeroFactura = generarNumeroFactura(tipoFactura);
+            }
+            
+            // Actualizar la vista de factura
+            actualizarFactura(cliente, fecha, metodoPago, productos, total, tipoFactura, numeroFactura);
+            
+            // Mostrar la factura y ocultar empty state
+            document.getElementById('facturaPreview').classList.remove('hidden');
+            document.getElementById('emptyState').classList.add('hidden');
+            
+            // Mostrar mensaje de éxito
+            const alert = document.getElementById('successAlert');
+            alert.style.display = 'block';
+            setTimeout(() => {
+                alert.style.display = 'none';
+            }, 3000);
+        }
+        
+        // Procesar el texto del pedido
+        function procesarTextoPedido(texto) {
+            const lineas = texto.split('\n');
+            const productos = [];
+            let contador = 1;
+            
+            for (let i = 0; i < lineas.length; i++) {
+                const linea = lineas[i].trim();
+                
+                // Buscar líneas que contengan productos
+                if (linea.match(/^\d+\./)) {
+                    // Extraer descripción
+                    const descripcion = linea.replace(/^\d+\.\s*/, '').trim();
+                    
+                    // Buscar código en línea siguiente
+                    let codigo = '';
+                    let cantidad = 0;
+                    let precio = 0;
+                    let subtotal = 0;
+                    
+                    for (let j = i + 1; j < Math.min(i + 6, lineas.length); j++) {
+                        const lineaInfo = lineas[j].trim();
+                        
+                        if (lineaInfo.includes('Código:')) {
+                            codigo = lineaInfo.split('Código:')[1].trim();
+                        }
+                        if (lineaInfo.includes('Cantidad:')) {
+                            const cantText = lineaInfo.split('Cantidad:')[1].trim();
+                            cantidad = parseInt(cantText) || 0;
+                        }
+                        if (lineaInfo.includes('Precio') && lineaInfo.includes('$')) {
+                            const precioMatch = lineaInfo.match(/\$([\d\.]+)/);
+                            if (precioMatch) {
+                                precio = parseFloat(precioMatch[1]);
+                            }
+                        }
+                        if (lineaInfo.includes('Subtotal:') || lineaInfo.includes('🧮')) {
+                            const subtotalMatch = lineaInfo.match(/\$([\d\.]+)/);
+                            if (subtotalMatch) {
+                                subtotal = parseFloat(subtotalMatch[1]);
+                            }
+                        }
+                    }
+                    
+                    if (codigo && cantidad > 0) {
+                        productos.push({
+                            numero: contador++,
+                            codigo,
+                            descripcion,
+                            cantidad,
+                            precio,
+                            subtotal
+                        });
+                    }
+                }
+            }
+            
+            return productos;
+        }
+        
+        // Actualizar la vista de la factura
+        function actualizarFactura(cliente, fecha, metodoPago, productos, total, tipoFactura, numeroFactura) {
+            // Actualizar información del cliente
+            document.getElementById('facturaCliente').textContent = cliente;
+            document.getElementById('facturaFecha').textContent = formatearFecha(fecha);
+            document.getElementById('facturaPago').textContent = metodoPago;
+            
+            // Actualizar tipo de factura
+            if (tipoFactura === 'HD-EXC') {
+                document.getElementById('facturaSubtitulo').textContent = 'COMERCIAL LA EXCELENCIA';
+            } else {
+                document.getElementById('facturaSubtitulo').textContent = 'HD DISTRIBUCIONES';
+            }
+            
+            document.getElementById('facturaNumeroCompleto').textContent = `N° ${numeroFactura}`;
+            
+            // Actualizar tabla de productos
+            const tbody = document.querySelector('#tablaProductos tbody');
+            tbody.innerHTML = '';
+            
+            productos.forEach(producto => {
+                const fila = document.createElement('tr');
+                fila.innerHTML = `
+                    <td>${producto.numero}</td>
+                    <td>${producto.codigo}</td>
+                    <td>${producto.descripcion}</td>
+                    <td>${producto.cantidad}</td>
+                    <td>$${producto.precio.toFixed(2)}</td>
+                    <td>$${producto.subtotal.toFixed(2)}</td>
+                `;
+                tbody.appendChild(fila);
+            });
+            
+            // Actualizar totales
+            document.getElementById('facturaSubtotal').textContent = `$${total.toFixed(2)}`;
+            document.getElementById('facturaTotal').textContent = `$${total.toFixed(2)}`;
+        }
+        
+        // Formatear fecha
+        function formatearFecha(fechaStr) {
+            const fecha = new Date(fechaStr);
+            if (isNaN(fecha.getTime())) {
+                return new Date().toLocaleDateString('es-ES');
+            }
+            return fecha.toLocaleDateString('es-ES', {
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric'
+            });
+        }
+        
+        // Imprimir factura
+        function imprimirFactura() {
+            const contenidoOriginal = document.body.innerHTML;
+            const contenidoFactura = document.getElementById('facturaParaPDF').innerHTML;
+            
+            document.body.innerHTML = contenidoFactura;
+            window.print();
+            document.body.innerHTML = contenidoOriginal;
+            location.reload(); // Recargar para restaurar funcionalidad
+        }
+        
+        // Guardar como PDF
+        function guardarPDF() {
+            const facturaData = {
+                cliente: document.getElementById('facturaCliente').textContent,
+                fecha: document.getElementById('facturaFecha').textContent,
+                numero: document.getElementById('facturaNumeroCompleto').textContent,
+                total: document.getElementById('facturaTotal').textContent
+            };
+            
+            alert(`Para guardar como PDF:\n1. Haz clic en "Imprimir Factura"\n2. En el diálogo de impresión, selecciona "Guardar como PDF"\n3. Nombre sugerido: Factura_${facturaData.numero.replace('N° ', '').replace(/-/g, '_')}.pdf\n4. Elige la ubicación y haz clic en "Guardar"`);
+        }
+        
+        // Guardar en historial
+        function guardarEnHistorial() {
+            const factura = {
+                id: Date.now(),
+                cliente: document.getElementById('facturaCliente').textContent,
+                fecha: document.getElementById('facturaFecha').textContent,
+                numero: document.getElementById('facturaNumeroCompleto').textContent.replace('N° ', ''),
+                total: document.getElementById('facturaTotal').textContent,
+                tipo: document.getElementById('tipoFactura').value,
+                productos: Array.from(document.querySelectorAll('#tablaProductos tbody tr')).map(row => ({
+                    codigo: row.cells[1].textContent,
+                    descripcion: row.cells[2].textContent,
+                    cantidad: row.cells[3].textContent,
+                    precio: row.cells[4].textContent,
+                    subtotal: row.cells[5].textContent
+                }))
+            };
+            
+            // Agregar al historial
+            facturasHistorial.unshift(factura);
+            
+            // Guardar en localStorage (máximo 50 facturas)
+            if (facturasHistorial.length > 50) {
+                facturasHistorial = facturasHistorial.slice(0, 50);
+            }
+            
+            localStorage.setItem('facturasHD', JSON.stringify(facturasHistorial));
+            
+            // Actualizar vista del historial
+            cargarHistorialReciente();
+            
+            alert('Factura guardada en el historial. Puedes revisarla en cualquier momento desde la sección "Historial de Facturas".');
+        }
+        
+        // Cargar historial reciente
+        function cargarHistorialReciente() {
+            const container = document.getElementById('historialReciente');
+            
+            if (facturasHistorial.length === 0) {
+                container.innerHTML = `
+                    <div class="empty-historial">
+                        <i class="fas fa-file-alt"></i>
+                        <p>No hay facturas en el historial</p>
+                        <p>Genera una factura para verla aquí</p>
+                    </div>
+                `;
+                return;
+            }
+            
+            const historialHTML = facturasHistorial.slice(0, 5).map(factura => `
+                <div class="historial-item">
+                    <div class="historial-info">
+                        <div class="historial-numero">${factura.numero}</div>
+                        <div class="historial-cliente">${factura.cliente} - ${factura.fecha}</div>
+                    </div>
+                    <div class="historial-acciones">
+                        <button class="historial-btn" onclick="verFactura(${factura.id})" title="Ver Factura">
+                            <i class="fas fa-eye"></i>
+                        </button>
+                        <button class="historial-btn" onclick="eliminarFactura(${factura.id})" title="Eliminar">
+                            <i class="fas fa-trash"></i>
+                        </button>
+                    </div>
+                </div>
+            `).join('');
+            
+            container.innerHTML = historialHTML;
+        }
+        
+        // Ver factura del historial
+        function verFactura(id) {
+            const factura = facturasHistorial.find(f => f.id === id);
+            if (!factura) return;
+            
+            // Cargar datos en el formulario
+            document.getElementById('clienteNombre').value = factura.cliente;
+            document.getElementById('tipoFactura').value = factura.tipo;
+            document.getElementById('numeroFactura').value = factura.numero.split('-')[2] || '';
+            
+            // Crear texto del pedido
+            let textoPedido = '';
+            factura.productos.forEach((prod, index) => {
+                textoPedido += `${index + 1}. ${prod.descripcion}\n`;
+                textoPedido += `   📦 Código: ${prod.codigo}\n`;
+                textoPedido += `   🔢 Cantidad: ${prod.cantidad}\n`;
+                textoPedido += `   💰 Precio: ${prod.precio} c/u\n`;
+                textoPedido += `   🧮 Subtotal: ${prod.subtotal}\n\n`;
+            });
+            
+            textoPedido += `━━━━━━━━━━━━━━━━\n💰 TOTAL DEL PEDIDO: ${factura.total}`;
+            
+            document.getElementById('textoPedido').value = textoPedido;
+            
+            // Generar factura automáticamente
+            setTimeout(() => generarFactura(), 500);
+            
+            alert('Factura cargada. Revisa los datos y actualiza si es necesario.');
+        }
+        
+        // Eliminar factura del historial
+        function eliminarFactura(id) {
+            if (confirm('¿Estás seguro de eliminar esta factura del historial?')) {
+                facturasHistorial = facturasHistorial.filter(f => f.id !== id);
+                localStorage.setItem('facturasHD', JSON.stringify(facturasHistorial));
+                cargarHistorialReciente();
+                alert('Factura eliminada del historial');
+            }
+        }
+        
+        // Mostrar historial completo
+        function mostrarHistorial() {
+            const container = document.getElementById('historialCompleto');
+            
+            if (facturasHistorial.length === 0) {
+                container.innerHTML = '<div class="empty-historial"><i class="fas fa-file-alt"></i><p>No hay facturas en el historial</p></div>';
+            } else {
+                const historialHTML = facturasHistorial.map(factura => `
+                    <div class="historial-item">
+                        <div class="historial-info">
+                            <div class="historial-numero">${factura.numero}</div>
+                            <div class="historial-cliente">${factura.cliente} - ${factura.fecha} - Total: ${factura.total}</div>
+                        </div>
+                        <div class="historial-acciones">
+                            <button class="historial-btn" onclick="verFactura(${factura.id})" title="Ver Factura">
+                                <i class="fas fa-eye"></i>
+                            </button>
+                            <button class="historial-btn" onclick="eliminarFactura(${factura.id})" title="Eliminar">
+                                <i class="fas fa-trash"></i>
+                            </button>
+                        </div>
+                    </div>
+                `).join('');
+                
+                container.innerHTML = historialHTML;
+            }
+            
+            document.getElementById('historialModal').style.display = 'flex';
+        }
+        
+        // Cerrar historial
+        function cerrarHistorial() {
+            document.getElementById('historialModal').style.display = 'none';
+        }
+        
+        // Limpiar historial completo
+        function limpiarHistorial() {
+            if (confirm('¿Estás seguro de eliminar TODAS las facturas del historial? Esta acción no se puede deshacer.')) {
+                facturasHistorial = [];
+                localStorage.removeItem('facturasHD');
+                cerrarHistorial();
+                cargarHistorialReciente();
+                alert('Historial limpiado completamente');
+            }
+        }
+        
+        // Auto-cargar datos de ejemplo
+        document.getElementById('textoPedido').addEventListener('click', function(e) {
+            if (this.value === '' || this.value.includes('Pega aquí')) {
+                this.value = `1. TOALLITAS COMPRIMIDA X20 PZ HD
+   📦 Código: HD3438
+   🔢 Cantidad: 12
+   💰 Precio (12 Unidades): $1.26 c/u
+   🧮 Subtotal: $15.12
+
+2. TOALLITAS COMPRIMIDA X100PZ HD
+   📦 Código: HD3383
+   🔢 Cantidad: 12
+   💰 Precio (12 Unidades): $2.66 c/u
+   🧮 Subtotal: $31.92
+
+━━━━━━━━━━━━━━━━
+💰 TOTAL DEL PEDIDO: $47.04`;
+            }
+        });
+    </script>
+</body>
+</html>
