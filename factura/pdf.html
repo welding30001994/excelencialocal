@@ -13,6 +13,7 @@
             --color-alerta: #d32f2f;
             --color-fondo: #f5f7ff;
             --color-borde: #c5cae9;
+            --color-info: #0288d1;
         }
         
         * {
@@ -51,7 +52,7 @@
         }
         
         .panel-header {
-            background: linear-gradient(135deg, var(--color-primario) 0%, var(--color-secundario) 100%);
+
             color: white;
             padding: 20px;
             text-align: center;
@@ -92,6 +93,12 @@
             margin-bottom: 8px;
             color: #444;
             font-weight: 600;
+        }
+        
+        .label-with-icon {
+            display: flex;
+            align-items: center;
+            gap: 8px;
         }
         
         input, textarea, select {
@@ -151,6 +158,17 @@
             background: linear-gradient(135deg, #1b5e20 0%, #388e3c 100%);
             transform: translateY(-2px);
             box-shadow: 0 5px 15px rgba(46, 125, 50, 0.3);
+        }
+        
+        .btn-info {
+            background: linear-gradient(135deg, var(--color-info) 0%, #03a9f4 100%);
+            color: white;
+        }
+        
+        .btn-info:hover {
+            background: linear-gradient(135deg, #0277bd 0%, #0288d1 100%);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(2, 136, 209, 0.3);
         }
         
         .btn-danger {
@@ -221,6 +239,22 @@
             border-left: 4px solid var(--color-primario);
         }
         
+        .cliente-info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 10px;
+        }
+        
+        .cliente-info-item {
+            padding: 8px 0;
+            border-bottom: 1px dashed #ddd;
+        }
+        
+        .cliente-info-item:last-child {
+            border-bottom: none;
+        }
+        
         .factura-detalle {
             overflow-x: auto;
             margin-bottom: 20px;
@@ -282,6 +316,12 @@
             border-left-color: var(--color-exito);
         }
         
+        .alert-info {
+            background: #e1f5fe;
+            color: #01579b;
+            border-left-color: var(--color-info);
+        }
+        
         .alert-warning {
             background: #fff3e0;
             color: #e65100;
@@ -338,8 +378,14 @@
             gap: 20px;
         }
         
+        .form-row-3 {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+        }
+        
         @media (max-width: 768px) {
-            .form-row {
+            .form-row, .form-row-3 {
                 grid-template-columns: 1fr;
             }
         }
@@ -385,6 +431,7 @@
         .historial-info {
             display: flex;
             flex-direction: column;
+            flex: 1;
         }
         
         .historial-numero {
@@ -395,6 +442,15 @@
         .historial-cliente {
             color: #666;
             font-size: 14px;
+        }
+        
+        .historial-detalles {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 5px;
+            font-size: 12px;
+            color: #888;
         }
         
         .historial-acciones {
@@ -445,7 +501,7 @@
             padding: 30px;
             border-radius: 15px;
             width: 90%;
-            max-width: 600px;
+            max-width: 800px;
             max-height: 80vh;
             overflow-y: auto;
             box-shadow: 0 10px 30px rgba(0,0,0,0.3);
@@ -483,20 +539,107 @@
             background: #f9f9f9;
             border-radius: 8px;
         }
+        
+        .cliente-fields-section {
+            background: #f0f7ff;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 25px;
+            border-left: 4px solid var(--color-info);
+        }
+        
+        .section-title {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: var(--color-primario);
+            margin-bottom: 15px;
+            font-size: 18px;
+        }
+        
+        .cliente-buttons {
+            display: flex;
+            gap: 10px;
+            margin-top: 15px;
+        }
+        
+        .cliente-btn {
+            padding: 8px 15px;
+            border-radius: 6px;
+            border: none;
+            cursor: pointer;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        
+        .cliente-btn-save {
+            background: var(--color-info);
+            color: white;
+        }
+        
+        .cliente-btn-clear {
+            background: #f5f5f5;
+            color: #666;
+            border: 1px solid #ddd;
+        }
+        
+        .cliente-list {
+            margin-top: 20px;
+        }
+        
+        .cliente-list-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 15px;
+            border: 1px solid #e0e0e0;
+            border-radius: 6px;
+            margin-bottom: 10px;
+            background: white;
+        }
+        
+        .cliente-list-info {
+            flex: 1;
+        }
+        
+        .cliente-list-nombre {
+            font-weight: bold;
+            color: var(--color-primario);
+        }
+        
+        .cliente-list-detalles {
+            font-size: 12px;
+            color: #666;
+            margin-top: 3px;
+        }
+        
+        .cliente-list-acciones {
+            display: flex;
+            gap: 8px;
+        }
+        
+        .info-icon {
+            color: var(--color-info);
+            margin-right: 5px;
+        }
     </style>
 </head>
 <body>
     <div class="logo">
-        <i class="fas fa-boxes"></i> COMERCIAL EXCELENCIA
+        <i class="fas fa-boxes"></i> COMERCIAL LA EXCELENCIA
     </div>
-    <h1>Sistema de Facturación Automático</h1>
+    <h1>Sistema de Facturación </h1>
+
+
     
     <div class="alert alert-success" id="successAlert">
         <i class="fas fa-check-circle"></i> Factura generada exitosamente. Guardada en el historial.
     </div>
     
-    <div class="alert alert-warning" id="configAlert">
-        <i class="fas fa-exclamation-triangle"></i> Configura la secuencia de facturación en "Configuración"
+    <div class="alert alert-info" id="infoAlert">
+        <i class="fas fa-info-circle"></i> Puedes guardar clientes frecuentes para agilizar el proceso.
     </div>
     
     <div class="container">
@@ -509,55 +652,120 @@
                 <div class="instructions">
                     <strong><i class="fas fa-info-circle"></i> Instrucciones:</strong>
                     <ol>
-                        <li>Ingresa los datos del cliente y empresa</li>
+                        <li>Completa todos los datos del cliente</li>
                         <li>Pega el texto del pedido en el área de abajo</li>
                         <li>Haz clic en "Generar Factura"</li>
-                        <li>La factura aparecerá automáticamente a la derecha</li>
                         <li>Guarda el PDF y revisa desde "Historial"</li>
                     </ol>
                 </div>
                 
-                <div class="form-row">
-                    <div class="input-group">
-                        <label for="clienteNombre"><i class="fas fa-user"></i> Nombre del Cliente</label>
-                        <input type="text" id="clienteNombre" placeholder="Ej: COMERCIAL LA EXCELENCIA">
+                <!-- Información del Cliente -->
+                <div class="cliente-fields-section">
+                    <div class="section-title">
+                        <i class="fas fa-user-tie"></i>
+                        <span>Información del Cliente</span>
                     </div>
                     
-                    <div class="input-group">
-                        <label for="fechaFactura"><i class="fas fa-calendar"></i> Fecha de Factura</label>
-                        <input type="date" id="fechaFactura" value="">
+                    <div class="form-row">
+                        <div class="input-group">
+                            <label for="clienteNombre" class="label-with-icon">
+                                <i class="fas fa-user"></i> Nombre / Razón Social
+                            </label>
+                            <input type="text" id="clienteNombre" placeholder="Ej: COMERCIAL LA EXCELENCIA S.A.">
+                        </div>
+                        
+                        <div class="input-group">
+                            <label for="clienteCedula" class="label-with-icon">
+                                <i class="fas fa-id-card"></i> Número de Cédula/RUC
+                            </label>
+                            <input type="text" id="clienteCedula" placeholder="Ej: 1234567890123">
+                        </div>
+                    </div>
+                    
+                    <div class="form-row-3">
+                        <div class="input-group">
+                            <label for="clienteTelefono" class="label-with-icon">
+                                <i class="fas fa-phone"></i> Teléfono
+                            </label>
+                            <input type="tel" id="clienteTelefono" placeholder="Ej: 0991234567">
+                        </div>
+                        
+                        <div class="input-group">
+                            <label for="clienteEmail" class="label-with-icon">
+                                <i class="fas fa-envelope"></i> Correo Electrónico
+                            </label>
+                            <input type="email" id="clienteEmail" placeholder="Ej: cliente@empresa.com">
+                        </div>
+                        
+                        <div class="input-group">
+                            <label for="clienteDireccion" class="label-with-icon">
+                                <i class="fas fa-map-marker-alt"></i> Dirección (opcional)
+                            </label>
+                            <input type="text" id="clienteDireccion" placeholder="Dirección del cliente">
+                        </div>
+                    </div>
+                    
+                    <div class="cliente-buttons">
+                        <button class="cliente-btn cliente-btn-save" onclick="guardarCliente()">
+                            <i class="fas fa-save"></i> Guardar Cliente
+                        </button>
+                        <button class="cliente-btn cliente-btn-clear" onclick="cargarClientesGuardados()">
+                            <i class="fas fa-users"></i> Ver Clientes Guardados
+                        </button>
+                        <button class="cliente-btn cliente-btn-clear" onclick="limpiarCamposCliente()">
+                            <i class="fas fa-broom"></i> Limpiar Campos
+                        </button>
                     </div>
                 </div>
                 
+                <!-- Información de la Factura -->
                 <div class="form-row">
                     <div class="input-group">
-                        <label for="tipoFactura"><i class="fas fa-file-invoice"></i> Tipo de Factura</label>
+                        <label for="fechaFactura" class="label-with-icon">
+                            <i class="fas fa-calendar"></i> Fecha de Factura
+                        </label>
+                        <input type="date" id="fechaFactura" value="">
+                    </div>
+                    
+                    <div class="input-group">
+                        <label for="tipoFactura" class="label-with-icon">
+                            <i class="fas fa-file-invoice"></i> Tipo de Factura
+                        </label>
                         <select id="tipoFactura">
                             <option value="HD-FAC">HD-FAC (Factura Normal)</option>
                             <option value="HD-EXC">HD-EXC (Comercial La Excelencia)</option>
                         </select>
                     </div>
+                </div>
+                
+                <div class="form-row">
+                    <div class="input-group">
+                        <label for="numeroFactura" class="label-with-icon">
+                            <i class="fas fa-hashtag"></i> Número de Factura
+                        </label>
+                        <input type="text" id="numeroFactura" placeholder="Ej: 000001" value="000001">
+                    </div>
                     
                     <div class="input-group">
-                        <label for="numeroFactura"><i class="fas fa-hashtag"></i> Número de Factura</label>
-                        <input type="text" id="numeroFactura" placeholder="Ej: 000001" value="000001">
+                        <label for="metodoPago" class="label-with-icon">
+                            <i class="fas fa-credit-card"></i> Método de Pago
+                        </label>
+                        <select id="metodoPago">
+                            <option value="">Seleccionar método</option>
+                            <option value="Efectivo">Efectivo</option>
+                            <option value="Tarjeta de Crédito">Tarjeta de Crédito</option>
+                            <option value="Tarjeta de Débito">Tarjeta de Débito</option>
+                            <option value="Transferencia Bancaria">Transferencia Bancaria</option>
+                            <option value="Cheque">Cheque</option>
+                        </select>
                     </div>
                 </div>
                 
+                <!-- Texto del Pedido -->
                 <div class="input-group">
-                    <label for="metodoPago"><i class="fas fa-credit-card"></i> Método de Pago</label>
-                    <select id="metodoPago">
-                        <option value="">Seleccionar método</option>
-                        <option value="Efectivo">Efectivo</option>
-                        <option value="Tarjeta de Crédito">Tarjeta de Crédito</option>
-                        <option value="Tarjeta de Débito">Tarjeta de Débito</option>
-                        <option value="Transferencia Bancaria">Transferencia Bancaria</option>
-                        <option value="Cheque">Cheque</option>
-                    </select>
-                </div>
-                
-                <div class="input-group">
-                    <label for="textoPedido"><i class="fas fa-paste"></i> Pegar texto del pedido:</label>
+                    <label for="textoPedido" class="label-with-icon">
+                        <i class="fas fa-paste"></i> Pegar texto del pedido:
+                    </label>
                     <textarea id="textoPedido" placeholder="Pega aquí el texto con los productos...">
 1. TOALLITAS COMPRIMIDA X20 PZ HD
    📦 Código: HD3438
@@ -579,7 +787,7 @@
                     <button class="btn btn-primary" onclick="generarFactura()">
                         <i class="fas fa-file-invoice"></i> Generar Factura
                     </button>
-                    <button class="btn" onclick="abrirConfiguracion()" style="background: #6a1b9a; color: white;">
+                    <button class="btn btn-info" onclick="abrirConfiguracion()">
                         <i class="fas fa-cog"></i> Configuración
                     </button>
                 </div>
@@ -614,21 +822,38 @@
                     <div class="factura-preview" id="facturaParaPDF">
                         <div class="factura-header">
                             <div class="logo" style="font-size: 28px; margin-bottom: 10px;">
-                                <i class="fas fa-boxes"></i> HDDistribuciones
+                                <i class="fas fa-boxes"></i> COMERCIAL LA EXCELENCIA
                             </div>
                             <div class="factura-titulo">FACTURA DE VENTA</div>
                             <div class="factura-subtitulo" id="facturaSubtitulo">COMERCIAL LA EXCELENCIA</div>
-                            <div class="factura-numero" id="facturaNumeroCompleto">N° HD-EXC-000001</div>
+                            <div class="factura-numero" id="facturaNumeroCompleto">N° FAC-000001</div> 
+                          
                         </div>
                         
                         <div class="factura-cliente">
                             <div style="margin-bottom: 10px;">
-                                <strong>Cliente:</strong> <span id="facturaCliente">COMERCIAL LA EXCELENCIA</span>
+                                <strong>Cliente:</strong> <span id="facturaCliente">COMERCIAL LA EXCELENCIA S.A.</span>
                             </div>
-                            <div style="margin-bottom: 10px;">
-                                <strong>Fecha:</strong> <span id="facturaFecha">[Fecha]</span>
+                            <div class="cliente-info-grid">
+                                <div class="cliente-info-item">
+                                    <strong><i class="fas fa-id-card info-icon"></i>Cédula/RUC:</strong> 
+                                    <span id="facturaCedula">1234567890123</span>
+                                </div>
+                                <div class="cliente-info-item">
+                                    <strong><i class="fas fa-phone info-icon"></i>Teléfono:</strong> 
+                                    <span id="facturaTelefono">0991234567</span>
+                                </div>
+                                <div class="cliente-info-item">
+                                    <strong><i class="fas fa-envelope info-icon"></i>Correo:</strong> 
+                                    <span id="facturaEmail">cliente@empresa.com</span>
+                                </div>
+                                <div class="cliente-info-item">
+                                    <strong><i class="fas fa-map-marker-alt info-icon"></i>Dirección:</strong> 
+                                    <span id="facturaDireccion">Av. Principal 123</span>
+                                </div>
                             </div>
-                            <div>
+                            <div style="margin-top: 10px;">
+                                <strong>Fecha:</strong> <span id="facturaFecha">[Fecha]</span> | 
                                 <strong>Método de Pago:</strong> <span id="facturaPago">[Método de Pago]</span>
                             </div>
                         </div>
@@ -672,7 +897,7 @@
                             <button class="btn btn-primary" onclick="guardarPDF()">
                                 <i class="fas fa-file-pdf"></i> Guardar como PDF
                             </button>
-                            <button class="btn" onclick="guardarEnHistorial()" style="background: #ff9800; color: white;">
+                            <button class="btn btn-info" onclick="guardarEnHistorial()">
                                 <i class="fas fa-save"></i> Guardar en Historial
                             </button>
                         </div>
@@ -751,10 +976,31 @@
             </div>
         </div>
     </div>
+    
+    <!-- Modal para Clientes Guardados -->
+    <div class="modal" id="clientesModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2><i class="fas fa-users"></i> Clientes Guardados</h2>
+                <button class="close-modal" onclick="cerrarClientes()">&times;</button>
+            </div>
+            
+            <div id="clientesLista" style="max-height: 400px; overflow-y: auto;">
+                <!-- Los clientes se cargarán aquí -->
+            </div>
+            
+            <div style="text-align: center; margin-top: 20px;">
+                <button class="btn btn-danger" onclick="limpiarClientes()">
+                    <i class="fas fa-trash"></i> Limpiar Todos los Clientes
+                </button>
+            </div>
+        </div>
+    </div>
 
     <script>
         // Variables globales
         let facturasHistorial = JSON.parse(localStorage.getItem('facturasHD')) || [];
+        let clientesGuardados = JSON.parse(localStorage.getItem('clientesHD')) || [];
         let configuracion = JSON.parse(localStorage.getItem('configHD')) || {
             hdFac: 1709,
             hdExc: '000001'
@@ -766,6 +1012,11 @@
             cargarConfiguracion();
             cargarHistorialReciente();
             mostrarAlertaConfiguracion();
+            
+            // Cargar cliente por defecto si existe
+            if (clientesGuardados.length > 0) {
+                document.getElementById('infoAlert').style.display = 'block';
+            }
         });
         
         // Mostrar alerta si no se ha configurado
@@ -831,6 +1082,10 @@
         function generarFactura() {
             const texto = document.getElementById('textoPedido').value;
             const cliente = document.getElementById('clienteNombre').value.trim();
+            const cedula = document.getElementById('clienteCedula').value.trim();
+            const telefono = document.getElementById('clienteTelefono').value.trim();
+            const email = document.getElementById('clienteEmail').value.trim();
+            const direccion = document.getElementById('clienteDireccion').value.trim();
             const fecha = document.getElementById('fechaFactura').value;
             const metodoPago = document.getElementById('metodoPago').value;
             const tipoFactura = document.getElementById('tipoFactura').value;
@@ -840,6 +1095,12 @@
             if (!cliente) {
                 alert('Por favor ingresa el nombre del cliente');
                 document.getElementById('clienteNombre').focus();
+                return;
+            }
+            
+            if (!cedula) {
+                alert('Por favor ingresa el número de cédula/RUC');
+                document.getElementById('clienteCedula').focus();
                 return;
             }
             
@@ -875,7 +1136,7 @@
             }
             
             // Actualizar la vista de factura
-            actualizarFactura(cliente, fecha, metodoPago, productos, total, tipoFactura, numeroFactura);
+            actualizarFactura(cliente, cedula, telefono, email, direccion, fecha, metodoPago, productos, total, tipoFactura, numeroFactura);
             
             // Mostrar la factura y ocultar empty state
             document.getElementById('facturaPreview').classList.remove('hidden');
@@ -950,9 +1211,13 @@
         }
         
         // Actualizar la vista de la factura
-        function actualizarFactura(cliente, fecha, metodoPago, productos, total, tipoFactura, numeroFactura) {
+        function actualizarFactura(cliente, cedula, telefono, email, direccion, fecha, metodoPago, productos, total, tipoFactura, numeroFactura) {
             // Actualizar información del cliente
             document.getElementById('facturaCliente').textContent = cliente;
+            document.getElementById('facturaCedula').textContent = cedula || 'No especificado';
+            document.getElementById('facturaTelefono').textContent = telefono || 'No especificado';
+            document.getElementById('facturaEmail').textContent = email || 'No especificado';
+            document.getElementById('facturaDireccion').textContent = direccion || 'No especificado';
             document.getElementById('facturaFecha').textContent = formatearFecha(fecha);
             document.getElementById('facturaPago').textContent = metodoPago;
             
@@ -1023,11 +1288,146 @@
             alert(`Para guardar como PDF:\n1. Haz clic en "Imprimir Factura"\n2. En el diálogo de impresión, selecciona "Guardar como PDF"\n3. Nombre sugerido: Factura_${facturaData.numero.replace('N° ', '').replace(/-/g, '_')}.pdf\n4. Elige la ubicación y haz clic en "Guardar"`);
         }
         
+        // Guardar cliente en la lista
+        function guardarCliente() {
+            const cliente = document.getElementById('clienteNombre').value.trim();
+            const cedula = document.getElementById('clienteCedula').value.trim();
+            const telefono = document.getElementById('clienteTelefono').value.trim();
+            const email = document.getElementById('clienteEmail').value.trim();
+            const direccion = document.getElementById('clienteDireccion').value.trim();
+            
+            if (!cliente || !cedula) {
+                alert('Por favor ingresa al menos nombre y cédula para guardar el cliente');
+                return;
+            }
+            
+            // Verificar si el cliente ya existe
+            const clienteExistente = clientesGuardados.find(c => c.cedula === cedula);
+            if (clienteExistente) {
+                if (confirm('Este cliente ya existe. ¿Deseas actualizar sus datos?')) {
+                    // Actualizar cliente existente
+                    clienteExistente.nombre = cliente;
+                    clienteExistente.telefono = telefono;
+                    clienteExistente.email = email;
+                    clienteExistente.direccion = direccion;
+                    clienteExistente.actualizado = new Date().toISOString();
+                } else {
+                    return;
+                }
+            } else {
+                // Agregar nuevo cliente
+                clientesGuardados.unshift({
+                    id: Date.now(),
+                    nombre: cliente,
+                    cedula: cedula,
+                    telefono: telefono,
+                    email: email,
+                    direccion: direccion,
+                    fecha: new Date().toISOString()
+                });
+            }
+            
+            // Guardar en localStorage (máximo 50 clientes)
+            if (clientesGuardados.length > 50) {
+                clientesGuardados = clientesGuardados.slice(0, 50);
+            }
+            
+            localStorage.setItem('clientesHD', JSON.stringify(clientesGuardados));
+            
+            alert('Cliente guardado exitosamente. Aparecerá en la lista de clientes guardados.');
+        }
+        
+        // Cargar clientes guardados
+        function cargarClientesGuardados() {
+            const container = document.getElementById('clientesLista');
+            
+            if (clientesGuardados.length === 0) {
+                container.innerHTML = '<div class="empty-historial"><i class="fas fa-users"></i><p>No hay clientes guardados</p></div>';
+            } else {
+                const clientesHTML = clientesGuardados.map(cliente => `
+                    <div class="cliente-list-item">
+                        <div class="cliente-list-info">
+                            <div class="cliente-list-nombre">${cliente.nombre}</div>
+                            <div class="cliente-list-detalles">
+                                <span><i class="fas fa-id-card"></i> ${cliente.cedula}</span> | 
+                                <span><i class="fas fa-phone"></i> ${cliente.telefono || 'No especificado'}</span> | 
+                                <span><i class="fas fa-envelope"></i> ${cliente.email || 'No especificado'}</span>
+                            </div>
+                        </div>
+                        <div class="cliente-list-acciones">
+                            <button class="historial-btn" onclick="cargarClienteEnFormulario(${cliente.id})" title="Usar este cliente">
+                                <i class="fas fa-check"></i>
+                            </button>
+                            <button class="historial-btn" onclick="eliminarCliente(${cliente.id})" title="Eliminar cliente">
+                                <i class="fas fa-trash"></i>
+                            </button>
+                        </div>
+                    </div>
+                `).join('');
+                
+                container.innerHTML = clientesHTML;
+            }
+            
+            document.getElementById('clientesModal').style.display = 'flex';
+        }
+        
+        // Cargar cliente en formulario
+        function cargarClienteEnFormulario(id) {
+            const cliente = clientesGuardados.find(c => c.id === id);
+            if (!cliente) return;
+            
+            document.getElementById('clienteNombre').value = cliente.nombre;
+            document.getElementById('clienteCedula').value = cliente.cedula;
+            document.getElementById('clienteTelefono').value = cliente.telefono || '';
+            document.getElementById('clienteEmail').value = cliente.email || '';
+            document.getElementById('clienteDireccion').value = cliente.direccion || '';
+            
+            cerrarClientes();
+            alert('Cliente cargado en el formulario. Completa los demás datos y genera la factura.');
+        }
+        
+        // Eliminar cliente
+        function eliminarCliente(id) {
+            if (confirm('¿Estás seguro de eliminar este cliente?')) {
+                clientesGuardados = clientesGuardados.filter(c => c.id !== id);
+                localStorage.setItem('clientesHD', JSON.stringify(clientesGuardados));
+                cargarClientesGuardados();
+                alert('Cliente eliminado');
+            }
+        }
+        
+        // Limpiar campos del cliente
+        function limpiarCamposCliente() {
+            document.getElementById('clienteNombre').value = '';
+            document.getElementById('clienteCedula').value = '';
+            document.getElementById('clienteTelefono').value = '';
+            document.getElementById('clienteEmail').value = '';
+            document.getElementById('clienteDireccion').value = '';
+        }
+        
+        // Cerrar modal de clientes
+        function cerrarClientes() {
+            document.getElementById('clientesModal').style.display = 'none';
+        }
+        
+        // Limpiar todos los clientes
+        function limpiarClientes() {
+            if (confirm('¿Estás seguro de eliminar TODOS los clientes guardados? Esta acción no se puede deshacer.')) {
+                clientesGuardados = [];
+                localStorage.removeItem('clientesHD');
+                cerrarClientes();
+                alert('Todos los clientes han sido eliminados');
+            }
+        }
+        
         // Guardar en historial
         function guardarEnHistorial() {
             const factura = {
                 id: Date.now(),
                 cliente: document.getElementById('facturaCliente').textContent,
+                cedula: document.getElementById('facturaCedula').textContent,
+                telefono: document.getElementById('facturaTelefono').textContent,
+                email: document.getElementById('facturaEmail').textContent,
                 fecha: document.getElementById('facturaFecha').textContent,
                 numero: document.getElementById('facturaNumeroCompleto').textContent.replace('N° ', ''),
                 total: document.getElementById('facturaTotal').textContent,
@@ -1076,7 +1476,12 @@
                 <div class="historial-item">
                     <div class="historial-info">
                         <div class="historial-numero">${factura.numero}</div>
-                        <div class="historial-cliente">${factura.cliente} - ${factura.fecha}</div>
+                        <div class="historial-cliente">${factura.cliente}</div>
+                        <div class="historial-detalles">
+                            <span><i class="fas fa-id-card"></i> ${factura.cedula}</span>
+                            <span><i class="fas fa-calendar"></i> ${factura.fecha}</span>
+                            <span><i class="fas fa-dollar-sign"></i> ${factura.total}</span>
+                        </div>
                     </div>
                     <div class="historial-acciones">
                         <button class="historial-btn" onclick="verFactura(${factura.id})" title="Ver Factura">
@@ -1099,6 +1504,9 @@
             
             // Cargar datos en el formulario
             document.getElementById('clienteNombre').value = factura.cliente;
+            document.getElementById('clienteCedula').value = factura.cedula;
+            document.getElementById('clienteTelefono').value = factura.telefono.replace('No especificado', '');
+            document.getElementById('clienteEmail').value = factura.email.replace('No especificado', '');
             document.getElementById('tipoFactura').value = factura.tipo;
             document.getElementById('numeroFactura').value = factura.numero.split('-')[2] || '';
             
@@ -1119,6 +1527,7 @@
             // Generar factura automáticamente
             setTimeout(() => generarFactura(), 500);
             
+            cerrarHistorial();
             alert('Factura cargada. Revisa los datos y actualiza si es necesario.');
         }
         
@@ -1143,7 +1552,12 @@
                     <div class="historial-item">
                         <div class="historial-info">
                             <div class="historial-numero">${factura.numero}</div>
-                            <div class="historial-cliente">${factura.cliente} - ${factura.fecha} - Total: ${factura.total}</div>
+                            <div class="historial-cliente">${factura.cliente} (${factura.cedula})</div>
+                            <div class="historial-detalles">
+                                <span><i class="fas fa-calendar"></i> ${factura.fecha}</span>
+                                <span><i class="fas fa-dollar-sign"></i> ${factura.total}</span>
+                                <span><i class="fas fa-phone"></i> ${factura.telefono}</span>
+                            </div>
                         </div>
                         <div class="historial-acciones">
                             <button class="historial-btn" onclick="verFactura(${factura.id})" title="Ver Factura">
