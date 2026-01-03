@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Productos Premium</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+        
+        h1 {
+            margin-bottom: 10px;
+            font-size: 2.2rem;
+        }
+        
+        .section {
+            padding: 25px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #555;
+        }
+        
+        input, button {
+            width: 100%;
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: all 0.3s;
+        }
+        
+        input:focus {
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+            outline: none;
+        }
+        
+        button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+        }
+        
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+        
+        .camera-container {
+            position: relative;
+            width: 100%;
+            height: 350px;
+            background: #333;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+        
+        #video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        #capture-btn {
+            position: absolute;
+            bottom: 25px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            background: white;
+            border: 5px solid #667eea;
+            cursor: pointer;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+        
+        .preview-container {
+            display: none;
+            text-align: center;
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        #preview {
+            max-width: 100%;
+            max-height: 350px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+        
+        .product-list {
+            margin-top: 30px;
+        }
+        
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 25px;
+            margin-top: 20px;
+        }
+        
+        .product-card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s, box-shadow 0.3s;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        }
+        
+        .product-image {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .product-info {
+            padding: 20px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .product-name {
+            font-weight: bold;
+            font-size: 1.3rem;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        
+        .product-prices {
+            color: #666;
+            margin-bottom: 10px;
+            flex: 1;
+        }
+        
+        .wholesale-price {
+            color: #e74c3c;
+            font-weight: bold;
+        }
+        
+        .sale-price {
+            color: #2ecc71;
+            font-weight: bold;
+        }
+        
+        .product-code {
+            color: #7f8c8d;
+            font-size: 0.9rem;
+            margin-top: 10px;
+        }
+        
+        .actions {
+            display: flex;
+            gap: 15px;
+            margin-top: 25px;
+        }
+        
+        .actions button {
+            flex: 1;
+        }
+        
+        .secondary-btn {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+        }
+        
+        .hidden {
+            display: none;
+        }
+        
+        .message {
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            text-align: center;
+            font-weight: bold;
+        }
+        
+        .success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+        
+        .error {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+        
+        .empty-state {
+            text-align: center;
+            padding: 40px 20px;
+            color: #7f8c8d;
+        }
+        
+        .empty-state i {
+            font-size: 3rem;
+            margin-bottom: 15px;
+            display: block;
+            color: #bdc3c7;
+        }
+        
+        @media (max-width: 768px) {
+            .products-grid {
+                grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            }
+            
+            h1 {
+                font-size: 1.8rem;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .products-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .section {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Gestión de Productos Premium</h1>
+            <p>Registra productos con fotos y precios - Listado descargable</p>
+        </header>
+        
+        <div class="section">
+            <h2>Tomar Foto del Producto</h2>
+            <div class="camera-container">
+                <video id="video" autoplay playsinline></video>
+                <button id="capture-btn"></button>
+            </div>
+            
+            <div class="preview-container">
+                <img id="preview" alt="Vista previa de la foto">
+                <button id="retake-btn">Volver a tomar foto</button>
+            </div>
+            
+            <div class="form-group">
+                <label for="product-name">Nombre del Producto</label>
+                <input type="text" id="product-name" placeholder="Ingresa el nombre del producto">
+            </div>
+            
+            <div class="form-group">
+                <label for="wholesale-price">Precio al por mayor</label>
+                <input type="number" id="wholesale-price" placeholder="Precio al por mayor" step="0.01">
+            </div>
+            
+            <div class="form-group">
+                <label for="sale-price">Precio de venta</label>
+                <input type="number" id="sale-price" placeholder="Precio de venta" step="0.01">
+            </div>
+            
+            <div class="form-group">
+                <label for="product-code">Código del producto</label>
+                <input type="text" id="product-code" placeholder="Código del producto">
+            </div>
+            
+            <button id="save-product">Guardar Producto</button>
+        </div>
+        
+        <div class="section">
+            <h2>Lista de Productos</h2>
+            <div id="message" class="message hidden"></div>
+            
+            <div id="product-list" class="product-list">
+                <div id="products-container">
+                    <!-- Los productos se mostrarán aquí en grid -->
+                </div>
+            </div>
+            
+            <div class="actions">
+                <button id="download-html">Descargar Listado HTML</button>
+                <button id="clear-all" class="secondary-btn">Limpiar Todo</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Elementos DOM
+        const video = document.getElementById('video');
+        const captureBtn = document.getElementById('capture-btn');
+        const preview = document.getElementById('preview');
+        const previewContainer = document.querySelector('.preview-container');
+        const retakeBtn = document.getElementById('retake-btn');
+        const productName = document.getElementById('product-name');
+        const wholesalePrice = document.getElementById('wholesale-price');
+        const salePrice = document.getElementById('sale-price');
+        const productCode = document.getElementById('product-code');
+        const saveProductBtn = document.getElementById('save-product');
+        const productsContainer = document.getElementById('products-container');
+        const downloadHtmlBtn = document.getElementById('download-html');
+        const clearAllBtn = document.getElementById('clear-all');
+        const message = document.getElementById('message');
+        
+        // Variables globales
+        let stream = null;
+        let capturedImage = null;
+        let products = JSON.parse(localStorage.getItem('products')) || [];
+        
+        // Inicializar cámara
+        async function initCamera() {
+            try {
+                // Intentar usar la cámara trasera
+                const constraints = {
+                    video: { 
+                        facingMode: 'environment',
+                        width: { ideal: 1920 },
+                        height: { ideal: 1080 }
+                    }
+                };
+                
+                stream = await navigator.mediaDevices.getUserMedia(constraints);
+                video.srcObject = stream;
+            } catch (err) {
+                console.error('Error al acceder a la cámara:', err);
+                showMessage('No se pudo acceder a la cámara. Asegúrate de permitir el acceso.', 'error');
+            }
+        }
+        
+        // Capturar foto
+        captureBtn.addEventListener('click', () => {
+            const canvas = document.createElement('canvas');
+            canvas.width = video.videoWidth;
+            canvas.height = video.videoHeight;
+            const ctx = canvas.getContext('2d');
+            ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+            
+            capturedImage = canvas.toDataURL('image/jpeg', 0.9);
+            preview.src = capturedImage;
+            
+            // Mostrar vista previa y ocultar cámara
+            document.querySelector('.camera-container').style.display = 'none';
+            previewContainer.style.display = 'block';
+        });
+        
+        // Volver a tomar foto
+        retakeBtn.addEventListener('click', () => {
+            previewContainer.style.display = 'none';
+            document.querySelector('.camera-container').style.display = 'block';
+            capturedImage = null;
+        });
+        
+        // Guardar producto
+        saveProductBtn.addEventListener('click', () => {
+            if (!capturedImage) {
+                showMessage('Debes tomar una foto del producto primero', 'error');
+                return;
+            }
+            
+            if (!productName.value.trim()) {
+                showMessage('El nombre del producto es obligatorio', 'error');
+                return;
+            }
+            
+            const product = {
+                id: Date.now(),
+                name: productName.value.trim(),
+                wholesalePrice: parseFloat(wholesalePrice.value) || 0,
+                salePrice: parseFloat(salePrice.value) || 0,
+                code: productCode.value.trim(),
+                image: capturedImage,
+                date: new Date().toLocaleString()
+            };
+            
+            products.push(product);
+            saveProducts();
+            renderProducts();
+            clearForm();
+            
+            showMessage('Producto guardado correctamente', 'success');
+        });
+        
+        // Guardar productos en localStorage
+        function saveProducts() {
+            localStorage.setItem('products', JSON.stringify(products));
+        }
+        
+        // Renderizar lista de productos en grid
+        function renderProducts() {
+            if (products.length === 0) {
+                productsContainer.innerHTML = `
+                    <div class="empty-state">
+                        <i>📷</i>
+                        <h3>No hay productos registrados</h3>
+                        <p>Comienza tomando una foto y llenando los datos del producto</p>
+                    </div>
+                `;
+                return;
+            }
+            
+            productsContainer.innerHTML = `
+                <div class="products-grid">
+                    ${products.map(product => `
+                        <div class="product-card">
+                            <img src="${product.image}" alt="${product.name}" class="product-image">
+                            <div class="product-info">
+                                <div class="product-name">${product.name}</div>
+                                <div class="product-prices">
+                                    <div class="wholesale-price">Mayorista: $${product.wholesalePrice.toFixed(2)}</div>
+                                    <div class="sale-price">Venta: $${product.salePrice.toFixed(2)}</div>
+                                </div>
+                                <div class="product-code">Código: ${product.code}</div>
+                            </div>
+                        </div>
+                    `).join('')}
+                </div>
+            `;
+        }
+        
+        // Limpiar formulario
+        function clearForm() {
+            productName.value = '';
+            wholesalePrice.value = '';
+            salePrice.value = '';
+            productCode.value = '';
+            capturedImage = null;
+            previewContainer.style.display = 'none';
+            document.querySelector('.camera-container').style.display = 'block';
+        }
+        
+        // Descargar listado en HTML con diseño mejorado
+        downloadHtmlBtn.addEventListener('click', () => {
+            if (products.length === 0) {
+                showMessage('No hay productos para descargar', 'error');
+                return;
+            }
+            
+            const htmlContent = `
+                <!DOCTYPE html>
+                <html lang="es">
+                <head>
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>Catálogo de Productos</title>
+                    <style>
+                        * {
+                            margin: 0;
+                            padding: 0;
+                            box-sizing: border-box;
+                            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                        }
+                        
+                        body {
+                            background: #f5f7fa;
+                            color: #333;
+                            line-height: 1.6;
+                            padding: 30px;
+                        }
+                        
+                        .header {
+                            text-align: center;
+                            margin-bottom: 40px;
+                            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                            color: white;
+                            padding: 30px;
+                            border-radius: 15px;
+                            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+                        }
+                        
+                        h1 {
+                            font-size: 2.5rem;
+                            margin-bottom: 10px;
+                        }
+                        
+                        .catalog-grid {
+                            display: grid;
+                            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+                            gap: 30px;
+                            max-width: 1200px;
+                            margin: 0 auto;
+                        }
+                        
+                        .product-card {
+                            background: white;
+                            border-radius: 15px;
+                            overflow: hidden;
+                            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+                            transition: transform 0.3s, box-shadow 0.3s;
+                        }
+                        
+                        .product-card:hover {
+                            transform: translateY(-5px);
+                            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+                        }
+                        
+                        .product-image {
+                            width: 100%;
+                            height: 250px;
+                            object-fit: cover;
+                            border-bottom: 1px solid #eee;
+                        }
+                        
+                        .product-info {
+                            padding: 25px;
+                        }
+                        
+                        .product-name {
+                            font-weight: bold;
+                            font-size: 1.4rem;
+                            margin-bottom: 15px;
+                            color: #333;
+                        }
+                        
+                        .product-prices {
+                            margin-bottom: 10px;
+                        }
+                        
+                        .wholesale-price {
+                            color: #e74c3c;
+                            font-weight: bold;
+                            font-size: 1.1rem;
+                        }
+                        
+                        .sale-price {
+                            color: #2ecc71;
+                            font-weight: bold;
+                            font-size: 1.1rem;
+                        }
+                        
+                        .product-code {
+                            color: #7f8c8d;
+                            font-size: 0.95rem;
+                            margin-top: 15px;
+                        }
+                        
+                        .product-date {
+                            color: #95a5a6;
+                            font-size: 0.85rem;
+                            margin-top: 10px;
+                        }
+                        
+                        .footer {
+                            text-align: center;
+                            margin-top: 50px;
+                            color: #7f8c8d;
+                            font-size: 0.9rem;
+                        }
+                        
+                        @media print {
+                            body {
+                                padding: 0;
+                            }
+                            
+                            .product-card {
+                                break-inside: avoid;
+                                margin-bottom: 20px;
+                            }
+                        }
+                    </style>
+                </head>
+                <body>
+                    <div class="header">
+                        <h1>Catálogo de Productos</h1>
+                        <p>Generado el: ${new Date().toLocaleString()}</p>
+                    </div>
+                    
+                    <div class="catalog-grid">
+                        ${products.map(product => `
+                            <div class="product-card">
+                                <img src="${product.image}" alt="${product.name}" class="product-image">
+                                <div class="product-info">
+                                    <div class="product-name">${product.name}</div>
+                                    <div class="product-prices">
+                                        <div class="wholesale-price">Precio al por mayor: $${product.wholesalePrice.toFixed(2)}</div>
+                                        <div class="sale-price">Precio de venta: $${product.salePrice.toFixed(2)}</div>
+                                    </div>
+                                    <div class="product-code">Código: ${product.code}</div>
+                                    <div class="product-date">Registrado: ${product.date}</div>
+                                </div>
+                            </div>
+                        `).join('')}
+                    </div>
+                    
+                    <div class="footer">
+                        <p>Total de productos: ${products.length}</p>
+                    </div>
+                </body>
+                </html>
+            `;
+            
+            const blob = new Blob([htmlContent], { type: 'text/html' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'catalogo_productos.html';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+            
+            showMessage('Catálogo descargado correctamente', 'success');
+        });
+        
+        // Limpiar todos los productos
+        clearAllBtn.addEventListener('click', () => {
+            if (confirm('¿Estás seguro de que quieres eliminar todos los productos?')) {
+                products = [];
+                saveProducts();
+                renderProducts();
+                showMessage('Todos los productos han sido eliminados', 'success');
+            }
+        });
+        
+        // Mostrar mensajes
+        function showMessage(text, type) {
+            message.textContent = text;
+            message.className = `message ${type}`;
+            message.classList.remove('hidden');
+            
+            setTimeout(() => {
+                message.classList.add('hidden');
+            }, 3000);
+        }
+        
+        // Inicializar la aplicación
+        document.addEventListener('DOMContentLoaded', () => {
+            initCamera();
+            renderProducts();
+        });
+        
+        // Detener la cámara cuando se cierre la página
+        window.addEventListener('beforeunload', () => {
+            if (stream) {
+                stream.getTracks().forEach(track => track.stop());
+            }
+        });
+    </script>
+</body>
+</html>
